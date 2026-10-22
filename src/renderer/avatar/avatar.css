@@ -1,0 +1,285 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  user-select: none;
+}
+
+#avatar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-app-region: drag;
+  cursor: pointer;
+  position: relative;
+}
+
+#avatar-canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+#avatar-fallback {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 90%;
+  border-radius: 24px;
+  background: radial-gradient(circle at 35% 30%, #f3c9ff, #b46bff);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+#fallback-emoji {
+  font-size: min(15vw, 15vh, 56px);
+  line-height: 1;
+}
+
+#fallback-label {
+  margin-top: 6px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #3a1a5c;
+}
+
+#chat-toggle {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+#history-toggle {
+  position: absolute;
+  bottom: 8px;
+  right: 46px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+#menu-toggle {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+#tts-toggle {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+  transition: opacity 0.15s ease;
+}
+
+#tts-toggle.off {
+  opacity: 0.45;
+}
+
+#visibility-toggle {
+  position: absolute;
+  top: 46px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+  transition: opacity 0.15s ease;
+}
+
+/* "off" here means "not pinned" (hover-to-reveal mode) - dimmed the same way
+   tts/screenview show their own off state, for a consistent visual language. */
+#visibility-toggle.off {
+  opacity: 0.45;
+}
+
+/* Unpinned (not .buttons-pinned): every overlay button - visibility-toggle
+   included - starts invisible and non-interactive, and only fades in while
+   the cursor is over the avatar. ".avatar-hovered" is a JS-toggled class
+   (see avatar.ts's onHoverChange), not CSS :hover - the avatar body's
+   -webkit-app-region: drag suppresses real hover/mousemove events for that
+   element in Chromium, so this can't be plain CSS :hover the way a normal
+   page would do it. */
+/* #provider-menu rides along with the same hover-reveal rule as the other
+   overlay buttons (it isn't itself an .overlay-btn, since its own open/
+   closed state is independently JS-controlled via the .open class) - without
+   this, closing the avatar-hover state wouldn't hide an open provider menu,
+   leaving it stranded visible after #provider-toggle itself had faded out. */
+#avatar-container:not(.buttons-pinned) .overlay-btn,
+#avatar-container:not(.buttons-pinned) #provider-menu {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+
+#avatar-container:not(.buttons-pinned).avatar-hovered .overlay-btn,
+#avatar-container:not(.buttons-pinned).avatar-hovered #provider-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Restores each button's own "off" dimming (rather than full opacity) once
+   revealed by hover, so e.g. a muted TTS button still reads as muted instead
+   of looking indistinguishable from "on" while hovering. */
+#avatar-container:not(.buttons-pinned).avatar-hovered #tts-toggle.off,
+#avatar-container:not(.buttons-pinned).avatar-hovered #screenview-toggle.off,
+#avatar-container:not(.buttons-pinned).avatar-hovered #visibility-toggle.off {
+  opacity: 0.45;
+}
+
+#screenview-toggle {
+  position: absolute;
+  top: 8px;
+  left: 42px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+  transition: opacity 0.15s ease;
+}
+
+#screenview-toggle.off {
+  opacity: 0.45;
+}
+
+#provider-toggle {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+/* Distinct background tint per active provider (not just icon swap) so the
+   mode is unmistakable at a glance, same reasoning as the TTS "starting"
+   state needing more than a recolored glyph. */
+#provider-toggle.claude {
+  background: #d8c8ff;
+}
+
+#provider-toggle.local {
+  background: #c8e6c9;
+}
+
+#provider-toggle.gemini-fast {
+  background: #ffe0b2;
+}
+
+/* Clicking provider-toggle reveals this instead of cycling directly - now
+   that there are three providers, a cycle would mean "wrong one is often
+   one more click away" half the time, so explicit selection is clearer. */
+#provider-menu {
+  position: absolute;
+  top: 42px;
+  left: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+  z-index: 10;
+}
+
+#provider-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.provider-option {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+/* The currently-active option within the open menu, so you can see what's
+   selected without having to close the menu and look at the main icon. */
+.provider-option.active {
+  outline: 2px solid #2f9c90;
+  outline-offset: 1px;
+}
+
+/* A thin ring around a small icon was too subtle to notice against a busy
+   character background. "Starting" now changes three things at once so it's
+   unmistakable at a glance: the fill color (large area, not a thin edge), the
+   glyph itself (hourglass instead of a recolored speaker), and motion. */
+#tts-toggle.starting {
+  background: #d8d8d8;
+  cursor: default;
+  animation: tts-pulse 0.9s ease-in-out infinite;
+}
+
+@keyframes tts-pulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+

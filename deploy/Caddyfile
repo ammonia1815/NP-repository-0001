@@ -1,0 +1,12 @@
+{
+    storage file_system {
+        root "C:/AI NPC 0901/deploy/caddy-data"
+    }
+}
+
+ainpc.duckdns.org {
+    tls {
+        dns duckdns ee3be78b-240a-4cb3-a642-5f4d8e2d270d
+    }
+    reverse_proxy localhost:8787
+}

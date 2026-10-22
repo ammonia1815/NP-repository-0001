@@ -1,0 +1,32 @@
+# dependencies / build output (regenerable - never source)
+node_modules/
+dist/
+android/app/build/
+android/.gradle/
+
+# Claude Code's own local tool state, not project source
+.claude/
+
+# secrets - real values live only in .env, never committed (.env.example
+# tracks the variable names instead)
+.env
+
+# sensitive screenshot (filename itself names what's in it)
+스크린샷 2026-09-24 205124 토큰비번.png
+
+# unused leftover exports, confirmed unreferenced anywhere in src/android -
+# also over (or near) GitHub's 100MB hard per-file limit
+tyc-corpus1.zip
+tyc-corpus1/
+검색_검색.webp
+생각_생각.webp
+
+# Caddy's own auto-managed runtime state - real TLS private keys and
+# certificates live here, and it's fully regenerable (Caddy re-requests certs
+# from Let's Encrypt on next start), so it's runtime state, not source.
+deploy/caddy-data/
+deploy/*.log
+
+# real DuckDNS token - update-duckdns.ps1 now reads this file instead of
+# hardcoding it; only the real value stays untracked, the .example stays.
+deploy/duckdns-token.txt

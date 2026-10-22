@@ -1,0 +1,143 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#panel {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: rgba(17, 30, 32, 0.94);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+#cost-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  flex-shrink: 0;
+  padding: 0 8px 0 12px;
+  font-size: 12px;
+  color: #b8e3dd;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-app-region: drag;
+  cursor: move;
+}
+
+#cost-header span:nth-child(2) {
+  flex: 1;
+}
+
+#close-btn {
+  -webkit-app-region: no-drag;
+  border: none;
+  background: transparent;
+  color: #b8e3dd;
+  font-size: 13px;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+}
+
+#close-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#search-quota-bar {
+  flex-shrink: 0;
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #dcf3ef;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-app-region: no-drag;
+}
+
+#search-quota-bar .track {
+  margin-top: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+#search-quota-bar .fill {
+  height: 100%;
+  background: #2f9c90;
+}
+
+#search-quota-bar .fill.warn {
+  background: #d9a441;
+}
+
+#search-quota-bar .fill.over {
+  background: #c0564a;
+}
+
+#cost-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px 14px 14px;
+  -webkit-app-region: no-drag;
+}
+
+#cost-body.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8cb9b2;
+  font-size: 13px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  color: #dcf3ef;
+}
+
+thead th {
+  text-align: right;
+  padding: 4px 6px;
+  color: #b8e3dd;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  position: sticky;
+  top: 0;
+  background: rgba(17, 30, 32, 0.98);
+}
+
+thead th:first-child, tbody td:first-child {
+  text-align: left;
+}
+
+tbody td {
+  text-align: right;
+  padding: 4px 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+tbody tr.today {
+  background: rgba(47, 156, 144, 0.12);
+}
+
+tfoot td {
+  text-align: right;
+  padding: 6px;
+  font-weight: 600;
+  color: #b8e3dd;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+tfoot td:first-child {
+  text-align: left;
+}

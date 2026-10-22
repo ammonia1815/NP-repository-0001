@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Settings</title>
+<link rel="stylesheet" href="settings.css" />
+</head>
+<body>
+<div id="panel">
+  <div id="settings-header">
+    <span>⠿</span>
+    <span>아바타 크기</span>
+  </div>
+  <div id="slider-row">
+    <span id="scale-icon">🔍</span>
+    <input id="scale-slider" type="range" min="100" max="500" step="5" value="100" />
+    <span id="scale-label">100%</span>
+  </div>
+  <div id="server-section">
+    <div id="server-title">📱 서버 연결 (휴대폰 앱용)</div>
+    <div class="server-row">
+      <span class="server-label">주소</span>
+      <input id="server-url" type="text" readonly />
+      <button class="copy-btn" data-copy-target="server-url">복사</button>
+    </div>
+    <div class="server-row">
+      <span class="server-label">토큰</span>
+      <input id="server-token" type="text" readonly />
+      <button class="copy-btn" data-copy-target="server-token">복사</button>
+    </div>
+  </div>
+</div>
+<script src="settings.js"></script>
+</body>
+</html>

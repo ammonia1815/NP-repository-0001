@@ -1,0 +1,3365 @@
+{
+  "rotation_rules": [
+    {
+      "pattern": "NNNXXDDXAAAX",
+      "anchor_date": "2026-09-09",
+      "effective_from": "2026-09-15",
+      "effective_until": "2026-11-15"
+    },
+    {
+      "pattern": "NNNXXDDXAAAX",
+      "anchor_date": "2026-11-16",
+      "effective_from": "2026-11-16",
+      "effective_until": null
+    }
+  ],
+  "shift_overrides": {
+    "2026-09-17": {
+      "code": "DA",
+      "reason": "대근"
+    },
+    "2026-09-18": {
+      "code": "X",
+      "reason": "휴가"
+    },
+    "2026-09-19": {
+      "code": "X",
+      "reason": "휴가"
+    },
+    "2026-09-20": {
+      "code": "X",
+      "reason": "휴가"
+    },
+    "2026-09-21": {
+      "code": "X",
+      "reason": "휴가"
+    },
+    "2026-09-22": {
+      "code": "X",
+      "reason": "휴가"
+    },
+    "2026-09-23": {
+      "code": "X",
+      "reason": "휴가"
+    },
+    "2026-09-26": {
+      "code": "X",
+      "reason": "연차"
+    },
+    "2026-09-30": {
+      "code": "A",
+      "reason": "N 퇴근 후 당일 A 출근"
+    },
+    "2026-10-13": {
+      "code": "DA",
+      "reason": "주간 대근(DA 연속 근무)"
+    },
+    "2026-10-19": {
+      "code": "D"
+    },
+    "2026-10-20": {
+      "code": "X"
+    },
+    "2026-10-21": {
+      "code": "D"
+    },
+    "2026-10-22": {
+      "code": "D"
+    },
+    "2026-10-23": {
+      "code": "X"
+    },
+    "2026-10-24": {
+      "code": "D"
+    },
+    "2026-10-25": {
+      "code": "D"
+    },
+    "2026-10-26": {
+      "code": "X"
+    },
+    "2026-10-27": {
+      "code": "D"
+    },
+    "2026-10-28": {
+      "code": "D"
+    },
+    "2026-10-29": {
+      "code": "X"
+    },
+    "2026-10-30": {
+      "code": "D"
+    },
+    "2026-10-31": {
+      "code": "D"
+    },
+    "2026-11-01": {
+      "code": "X"
+    },
+    "2026-11-02": {
+      "code": "D"
+    },
+    "2026-11-03": {
+      "code": "D"
+    },
+    "2026-11-04": {
+      "code": "X"
+    },
+    "2026-11-05": {
+      "code": "D"
+    },
+    "2026-11-06": {
+      "code": "D"
+    },
+    "2026-11-07": {
+      "code": "X"
+    },
+    "2026-11-08": {
+      "code": "X"
+    },
+    "2026-11-09": {
+      "code": "D"
+    },
+    "2026-11-10": {
+      "code": "D"
+    },
+    "2026-11-11": {
+      "code": "X"
+    },
+    "2026-11-12": {
+      "code": "A"
+    },
+    "2026-11-13": {
+      "code": "A"
+    },
+    "2026-11-14": {
+      "code": "A"
+    },
+    "2026-11-15": {
+      "code": "X"
+    }
+  },
+  "confirmed_shifts": {
+    "2026-09-15": "D",
+    "2026-09-16": "X",
+    "2026-09-17": "DA",
+    "2026-09-18": "X",
+    "2026-09-19": "X",
+    "2026-09-20": "X",
+    "2026-09-21": "X",
+    "2026-09-22": "X",
+    "2026-09-23": "X",
+    "2026-09-24": "X",
+    "2026-09-25": "X",
+    "2026-09-26": "X",
+    "2026-09-27": "D",
+    "2026-09-28": "X",
+    "2026-09-29": "A",
+    "2026-09-30": "NA",
+    "2026-10-01": "A",
+    "2026-10-02": "X",
+    "2026-10-03": "N",
+    "2026-10-04": "N",
+    "2026-10-05": "N",
+    "2026-10-06": "X",
+    "2026-10-07": "X",
+    "2026-10-08": "D",
+    "2026-10-09": "D",
+    "2026-10-10": "X",
+    "2026-10-11": "A",
+    "2026-10-12": "A",
+    "2026-10-13": "DA",
+    "2026-10-14": "X",
+    "2026-10-15": "N",
+    "2026-10-16": "N",
+    "2026-10-17": "N",
+    "2026-10-18": "X",
+    "2026-10-19": "D",
+    "2026-10-20": "X",
+    "2026-10-21": "D",
+    "2026-10-22": "D"
+  },
+  "health_logs": [
+    {
+      "date": "2026-09-15",
+      "sleep_hours": 2,
+      "exercise": false,
+      "raw_text": "아침 결식, 점심(밥 1.5공기, 미역국, 참치샐러드, 김치, 치킨), 17~19시 낮잠(2시간)",
+      "calories_est": 950,
+      "alcohol_g": 0,
+      "timestamp": 1789471440300
+    },
+    {
+      "date": "2026-09-15",
+      "raw_text": "저녁 식사: 가지, 생작두콩, 파, 불고기소스 볶음, 잡곡밥 반공기",
+      "calories_est": 320,
+      "alcohol_g": 0,
+      "timestamp": 1789471837155
+    },
+    {
+      "date": "2026-09-15",
+      "raw_text": "보드카 소주잔 1잔",
+      "alcohol_g": 16,
+      "calories_est": 115,
+      "timestamp": 1789478706242
+    },
+    {
+      "date": "2026-09-16",
+      "raw_text": "위스키 1잔",
+      "calories_est": 75,
+      "alcohol_g": 12,
+      "timestamp": 1789494196295
+    },
+    {
+      "date": "2026-09-16",
+      "raw_text": "수면 약 8시간 20분 (03:10~11:30)",
+      "sleep_hours": 8.3,
+      "timestamp": 1789527248643
+    },
+    {
+      "date": "2026-09-16",
+      "calories_est": 480,
+      "alcohol_g": 0,
+      "raw_text": "점심: 계란프라이 2개, 올리브유 양배추·부추 볶음, 식빵 1장, 케첩",
+      "timestamp": 1789531165145
+    },
+    {
+      "date": "2026-09-16",
+      "exercise": true,
+      "raw_text": "가벼운 조깅 및 걷기 약 35분 (외출 총 45분)",
+      "timestamp": 1789543538166
+    },
+    {
+      "date": "2026-09-16",
+      "calories_est": 650,
+      "alcohol_g": 0,
+      "raw_text": "저녁: 잡곡밥 3/4공기, 불고기 1덩이, 대파 줄기 구이, 생작두콩 1개 구이",
+      "timestamp": 1789552602912
+    },
+    {
+      "date": "2026-09-17",
+      "raw_text": "기상 05:30 (수면 약 5시간) / 아침: 진비빔면 1개, 삶은 달걀 2개, 오이 1/4개",
+      "exercise": false,
+      "calories_est": 770,
+      "alcohol_g": 0,
+      "sleep_hours": 5,
+      "timestamp": 1789594707587
+    },
+    {
+      "date": "2026-09-17",
+      "exercise": false,
+      "alcohol_g": 0,
+      "raw_text": "핫식스 더 프로 1캔",
+      "calories_est": 40,
+      "timestamp": 1789601214869
+    },
+    {
+      "date": "2026-09-17",
+      "raw_text": "점심: 밥 1.5공기, 김치, 콩나물국, 물만두튀김 8개, 제육볶음",
+      "alcohol_g": 0,
+      "calories_est": 1190,
+      "timestamp": 1789634529924
+    },
+    {
+      "date": "2026-09-17",
+      "raw_text": "11시 푸쉬업 10회 3세트, 점심 후 낮잠 1시간",
+      "sleep_hours": 1,
+      "exercise": true,
+      "alcohol_g": 0,
+      "timestamp": 1789640819886
+    },
+    {
+      "date": "2026-09-17",
+      "alcohol_g": 0,
+      "calories_est": 1300,
+      "raw_text": "저녁: 밥 1.5공기, 육개장, 깍두기, 콘치즈 약간, 햄·닭고기 볶음",
+      "timestamp": 1789641010714
+    },
+    {
+      "date": "2026-09-17",
+      "calories_est": 100,
+      "raw_text": "구역 순찰 및 계단(77~144ft) 두 칸씩 빠르게 오르기 2회",
+      "exercise": true,
+      "timestamp": 1789652561353
+    },
+    {
+      "date": "2026-09-17",
+      "calories_est": 102,
+      "raw_text": "야식/간식: 촉촉한초코칩 1개(20g)",
+      "alcohol_g": 0,
+      "timestamp": 1789655881067
+    },
+    {
+      "date": "2026-09-18",
+      "raw_text": "위스키 2잔, 타이탄제로 1캔, 삶은 달걀 1개(올리브유, 소금 살짝)",
+      "alcohol_g": 20,
+      "calories_est": 260,
+      "timestamp": 1789664621909
+    },
+    {
+      "date": "2026-09-18",
+      "calories_est": 535,
+      "raw_text": "삶은 달걀 1개, 파스타면 84g, 봉골레 파스타 소스 100g, 생작두콩 1개, 냉동 바지락살 15개",
+      "alcohol_g": 0,
+      "timestamp": 1789707813871
+    },
+    {
+      "date": "2026-09-18",
+      "calories_est": 340,
+      "exercise": false,
+      "alcohol_g": 0,
+      "raw_text": "가지 2개, 작두콩 1개, 삶은 달걀 2개, 불고기 소스",
+      "timestamp": 1789723418333
+    },
+    {
+      "date": "2026-09-18",
+      "alcohol_g": 0,
+      "calories_est": 310,
+      "raw_text": "간식: 큰 복숭아 1개, 작은 파이 1개",
+      "timestamp": 1789740884279
+    },
+    {
+      "date": "2026-09-19",
+      "raw_text": "쉐이크쉑 쉑버거 싱글, 프라이, 환타 오렌지 L",
+      "alcohol_g": 0,
+      "calories_est": 1180,
+      "timestamp": 1789759908635
+    },
+    {
+      "date": "2026-09-19",
+      "alcohol_g": 0,
+      "exercise": true,
+      "raw_text": "공항 터미널 내 여권·지갑 수색을 위한 긴급 전력 질주 (약 20분)",
+      "calories_est": 130,
+      "exercise_type": "aerobic",
+      "timestamp": 1789759986331
+    },
+    {
+      "date": "2026-09-19",
+      "alcohol_g": 0,
+      "calories_est": 135,
+      "raw_text": "면세점 구경 및 게이트 이동 도보 (약 50분)",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "timestamp": 1789771328078
+    },
+    {
+      "date": "2026-09-19",
+      "alcohol_g": 18,
+      "raw_text": "오에도 튀김덮밥, 생맥주 중 1잔",
+      "calories_est": 1050,
+      "timestamp": 1789796561318
+    },
+    {
+      "date": "2026-09-19",
+      "calories_est": 1150,
+      "raw_text": "카츠젠 로스카츠 정식, 생맥주 중 1잔",
+      "alcohol_g": 17,
+      "timestamp": 1789818915047
+    },
+    {
+      "date": "2026-09-19",
+      "calories_est": 170,
+      "exercise": false,
+      "raw_text": "푸딩 1개",
+      "alcohol_g": 0,
+      "timestamp": 1789824766362
+    },
+    {
+      "date": "2026-09-20",
+      "raw_text": "푸딩병으로 사케 3잔",
+      "alcohol_g": 22,
+      "calories_est": 190,
+      "timestamp": 1789830558851
+    },
+    {
+      "date": "2026-09-20",
+      "alcohol_g": 0,
+      "raw_text": "고기만두 1개, 우메보시 주먹밥 1개",
+      "calories_est": 450,
+      "timestamp": 1789854498941
+    },
+    {
+      "date": "2026-09-20",
+      "alcohol_g": 0,
+      "calories_est": 150,
+      "raw_text": "레드불 330ml 1병",
+      "timestamp": 1789885183952
+    },
+    {
+      "date": "2026-09-20",
+      "calories_est": 1900,
+      "alcohol_g": 52,
+      "raw_text": "이자카야 저녁: 소곱창전골, 참치모듬회, 굴튀김, 면사리/야채/밥/계란4개(지분 60%), 생맥주 2잔, 사케 1잔",
+      "timestamp": 1789906322974
+    },
+    {
+      "date": "2026-09-20",
+      "exercise": true,
+      "calories_est": 650,
+      "alcohol_g": 0,
+      "raw_text": "도쿄게임쇼 7시간 기립 대기 및 저속 보행",
+      "exercise_type": "aerobic",
+      "timestamp": 1789906508307
+    },
+    {
+      "date": "2026-09-20",
+      "alcohol_g": 24,
+      "calories_est": 210,
+      "raw_text": "호텔 복귀 후 사케 푸딩컵 기준 2잔 추가 음주",
+      "timestamp": 1789916936520
+    },
+    {
+      "date": "2026-09-21",
+      "calories_est": 530,
+      "raw_text": "야식: 스트롱제로 1캔, 와사비 과자, 케이크 40%",
+      "alcohol_g": 25,
+      "timestamp": 1789919543767
+    },
+    {
+      "date": "2026-09-21",
+      "sleep_hours": 4.1,
+      "raw_text": "새벽 2시 50분경 취침, 07시 기상 (약 4.1시간 수면)",
+      "timestamp": 1789945206820
+    },
+    {
+      "date": "2026-09-20",
+      "raw_text": "저녁 식사 후 쪽잠 1시간",
+      "sleep_hours": 1,
+      "timestamp": 1789945316994
+    },
+    {
+      "date": "2026-09-21",
+      "calories_est": 755,
+      "alcohol_g": 0,
+      "exercise": false,
+      "raw_text": "아침 식사: 패밀리마트 멘야 곳케이 다쿠로 라멘 1개, 고기만두 1개",
+      "timestamp": 1789945384370
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "점심 식사: 산채 소바(산사이 소바), 사케 1잔",
+      "alcohol_g": 14,
+      "calories_est": 520,
+      "timestamp": 1789958411717
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "점심 이후 스카이트리타운 및 아키하바라 도보 이동·피규어 쇼핑 (약 5시간 저강도 보행)",
+      "calories_est": 500,
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "timestamp": 1789978643514
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "아 라 캉파뉴: 아이스 카페올레 1잔, 과일 타르트 1/2조각",
+      "alcohol_g": 0,
+      "exercise": false,
+      "calories_est": 320,
+      "timestamp": 1789978643520
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "간식: 도쿄 밀크 치즈 공장(Cow Cow Kitchen) 밀크 파이 1개",
+      "exercise": false,
+      "alcohol_g": 0,
+      "calories_est": 270,
+      "timestamp": 1789990756456
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "규카이도 모듬 소고기 구이 (토우가라시, 자부톤, 카이노미, 타테바라, 토모산카쿠 등) 1/2 (약 200~250g)",
+      "calories_est": 700,
+      "timestamp": 1790000537963
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "저녁 식사: 생맥주 1잔(중)",
+      "alcohol_g": 18,
+      "calories_est": 180,
+      "timestamp": 1790000617897
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "저녁 식사: 달걀과 파 덮밥(네기타마고한) 1그릇",
+      "calories_est": 480,
+      "alcohol_g": 0,
+      "timestamp": 1790000825428
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "저녁 식사 주류: 고쿠조 타카라 소주 25도 720ml의 75%(약 540ml)",
+      "calories_est": 750,
+      "alcohol_g": 108,
+      "timestamp": 1790000976831
+    },
+    {
+      "date": "2026-09-21",
+      "alcohol_g": 0,
+      "calories_est": 450,
+      "raw_text": "저녁 식사: 소금·파 양념 갈비(네기시오 카루비 추정) 1/2 분량(약 100g)",
+      "timestamp": 1790001317218
+    },
+    {
+      "date": "2026-09-21",
+      "raw_text": "저녁 식사: 소고기 육회 사시미(타레·노른자 소스) 1/2 분량",
+      "calories_est": 100,
+      "alcohol_g": 0,
+      "timestamp": 1790001532354
+    },
+    {
+      "date": "2026-09-22",
+      "exercise": false,
+      "calories_est": 110,
+      "alcohol_g": 0,
+      "raw_text": "야식: 메이지 타케노코노사토(초코죽순) 포켓팩 약 60%",
+      "timestamp": 1790002826545
+    },
+    {
+      "date": "2026-09-22",
+      "raw_text": "야식: 산토리 타코하이 츠부레우메 데카캔(500ml) 1캔, 패밀리마트 수플레 푸딩 1/2개",
+      "alcohol_g": 24,
+      "calories_est": 390,
+      "timestamp": 1790003982482
+    },
+    {
+      "date": "2026-09-22",
+      "calories_est": 290,
+      "raw_text": "야식: 오하요 BRULEE(브륄레) 아이스크림 1개",
+      "timestamp": 1790004947255
+    },
+    {
+      "date": "2026-09-22",
+      "raw_text": "야식 정정: 오하요 BRULEE(브륄레) 아이스크림 약 20% (친구 80%)",
+      "alcohol_g": 0,
+      "calories_est": 60,
+      "timestamp": 1790007238346
+    },
+    {
+      "date": "2026-09-22",
+      "raw_text": "이온음료 잔여분 약 250ml(어제 남은 절반) 음용",
+      "calories_est": 45,
+      "alcohol_g": 0,
+      "timestamp": 1790039841764
+    },
+    {
+      "date": "2026-09-22",
+      "alcohol_g": 0,
+      "exercise": false,
+      "calories_est": 35,
+      "raw_text": "패밀리마트 폭신한 계란국(ふわふわたまごのスープ) 1컵 섭취",
+      "timestamp": 1790039905518
+    },
+    {
+      "date": "2026-09-22",
+      "raw_text": "하브스 케이크 3조각(밀크 크레이프, 몽블랑, 초콜릿) 지분 30% 섭취 및 음료(실론티, 커피)",
+      "calories_est": 580,
+      "alcohol_g": 0,
+      "timestamp": 1790058610581
+    },
+    {
+      "date": "2026-09-22",
+      "raw_text": "스시로 초밥 약 18피스(새우 4종, 연어 3종, 낫토, 구운연어, 참치모둠, 잿방어, 전어, 특선참치) 단독 완식 및 하이볼 1잔",
+      "alcohol_g": 13,
+      "calories_est": 1020,
+      "timestamp": 1790061751211
+    },
+    {
+      "date": "2026-09-22",
+      "exercise_type": "aerobic",
+      "calories_est": 550,
+      "exercise": true,
+      "raw_text": "친구와 결별 후 백화점·빅카메라·돈키호테 쇼핑 및 역 간 도보 이동 (약 5시간)",
+      "timestamp": 1790084426247
+    },
+    {
+      "date": "2026-09-22",
+      "raw_text": "S&B 골든커리 1봉(150kcal), 오니시 휴대 오니기리 1개(약 150kcal), 편의점 삼각김밥 1개(약 180kcal)",
+      "calories_est": 480,
+      "timestamp": 1790088898001
+    },
+    {
+      "date": "2026-09-23",
+      "calories_est": 740,
+      "raw_text": "첫날 구매한 사케 1병(720ml 추정, 푸딩컵 4잔) 완식",
+      "alcohol_g": 86,
+      "timestamp": 1790090721426
+    },
+    {
+      "date": "2026-09-23",
+      "raw_text": "첫날 구매한 사케 잔여분(푸딩컵 4잔, 약 350ml) 완식 (정정)",
+      "alcohol_g": 42,
+      "calories_est": 365,
+      "timestamp": 1790090804794
+    },
+    {
+      "date": "2026-09-23",
+      "calories_est": 270,
+      "raw_text": "산토리 -196℃ 스트롱 제로 더블 그레이프후르츠 500ml 1캔(9%)",
+      "alcohol_g": 36,
+      "timestamp": 1790091555342
+    },
+    {
+      "date": "2026-09-23",
+      "raw_text": "아침 식사: 텐카이핀 교토농후토리파이탄 컵라면 (국물 대부분 남기고 면 위주 섭취)",
+      "alcohol_g": 0,
+      "calories_est": 360,
+      "timestamp": 1790116595563
+    },
+    {
+      "date": "2026-09-23",
+      "exercise": false,
+      "alcohol_g": 0,
+      "calories_est": 40,
+      "raw_text": "아침: 인스턴트 컵 미소된장국(작은 컵) 1개",
+      "timestamp": 1790119898321
+    },
+    {
+      "date": "2026-09-23",
+      "raw_text": "메이지 솟코겐키 젤리 드링크(아미노산&로열젤리 100kcal) 1개 섭취",
+      "calories_est": 100,
+      "alcohol_g": 0,
+      "timestamp": 1790120071277
+    },
+    {
+      "date": "2026-09-23",
+      "alcohol_g": 0,
+      "raw_text": "생수 1병(약 500ml), 젤리 음료 잔여분 섭취",
+      "calories_est": 50,
+      "timestamp": 1790129829341
+    },
+    {
+      "date": "2026-09-23",
+      "calories_est": 180,
+      "alcohol_g": 0,
+      "raw_text": "아이스 말차 라떼 M사이즈 1잔",
+      "timestamp": 1790130563678
+    },
+    {
+      "date": "2026-09-23",
+      "sleep_hours": 1.5,
+      "raw_text": "비행기 내 수면 약 1시간 30분",
+      "timestamp": 1790143962972
+    },
+    {
+      "date": "2026-09-23",
+      "calories_est": 800,
+      "alcohol_g": 0,
+      "exercise": false,
+      "raw_text": "삼채 불고기 돌솥비빔밥(한우 떡갈비 포함) 식사",
+      "timestamp": 1790145859469
+    },
+    {
+      "date": "2026-09-23",
+      "calories_est": 120,
+      "alcohol_g": 0,
+      "exercise": false,
+      "raw_text": "체리쉬(Cherish) 과일 젤리 3개 섭취",
+      "timestamp": 1790165540385
+    },
+    {
+      "date": "2026-09-23",
+      "alcohol_g": 0,
+      "calories_est": 65,
+      "raw_text": "복숭아 1개 섭취",
+      "timestamp": 1790166444721
+    },
+    {
+      "date": "2026-09-23",
+      "calories_est": 95,
+      "alcohol_g": 0,
+      "raw_text": "포도 일부(약 15~20알, 약 150g) 섭취",
+      "timestamp": 1790166577556
+    },
+    {
+      "date": "2026-09-24",
+      "raw_text": "22시 취침 후 00시 기상, 약 2시간 수면",
+      "sleep_hours": 2,
+      "timestamp": 1790183297300
+    },
+    {
+      "date": "2026-09-24",
+      "exercise": false,
+      "calories_est": 700,
+      "sleep_hours": 7,
+      "raw_text": "04:00~11:00 수면(7시간), 12:00 점심 식사(햇반 1/2공기, 갈비찜, 국, 조미김, 김치, 밑반찬)",
+      "timestamp": 1790221053022
+    },
+    {
+      "date": "2026-09-24",
+      "alcohol_g": 0,
+      "raw_text": "GO&FUN 그린 에너지 드링크 (레이싱 미쿠 2026 Ver.) 1캔 (250ml)",
+      "calories_est": 115,
+      "timestamp": 1790225474714
+    },
+    {
+      "date": "2026-09-24",
+      "calories_est": 120,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "raw_text": "저녁 야외 유산소 운동(산책/러닝)",
+      "timestamp": 1790248905142
+    },
+    {
+      "date": "2026-09-24",
+      "exercise_type": "aerobic",
+      "calories_est": 520,
+      "exercise": true,
+      "raw_text": "저녁 러닝 50분(18:50~19:40) 및 걷기 20분(19:40~20:00) 총 70분 유산소 운동",
+      "timestamp": 1790249013360
+    },
+    {
+      "date": "2026-09-24",
+      "exercise": false,
+      "calories_est": 390,
+      "raw_text": "저녁 식사: 야채 닭가슴살 비빔밥(햇반 1/2, 채소류, 닭가슴살 약간, 들기름 1큰술, 고추장 소량, 계란 없음) 및 물김치 반 공기 (약 390kcal)",
+      "alcohol_g": 0,
+      "timestamp": 1790249623767
+    },
+    {
+      "date": "2026-09-25",
+      "sleep_hours": 3.3,
+      "raw_text": "취침 04:00경 ~ 기상 06:20 (약 2시간 20분 수면, 자정 무렵 1시간 선잠 포함 총 수면 약 3.3시간)",
+      "timestamp": 1790286322220
+    },
+    {
+      "date": "2026-09-25",
+      "alcohol_g": 0,
+      "raw_text": "아침 제사 식사: 쌀밥 1공기 가득, 토란국, 소갈비찜, 모둠전(산적 포함), 잡채, 3색 나물(뽕나무잎, 고사리, 도라지 등) 푸짐하게 섭취",
+      "calories_est": 1020,
+      "timestamp": 1790294718861
+    },
+    {
+      "date": "2026-09-27",
+      "exercise": false,
+      "calories_est": 1000,
+      "alcohol_g": 0,
+      "raw_text": "야식: 코스트코 후라이드 치킨 반 마리(에어프라이어 조리) 및 피터루거 스테이크 소스 적정량 (위스키 음용 중, 수량 미정)",
+      "timestamp": 1790435633132
+    },
+    {
+      "date": "2026-09-27",
+      "exercise": false,
+      "calories_est": 1800,
+      "raw_text": "야식: 코스트코 후라이드 치킨 반 마리, 피터루거 스테이크 소스, 위스키 5잔(소주잔 기준, 약 220~250ml)",
+      "alcohol_g": 75,
+      "timestamp": 1790441689971
+    },
+    {
+      "date": "2026-09-27",
+      "sleep_hours": 5,
+      "alcohol_g": 0,
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "raw_text": "수면 약 5시간(02시경 취침, 07시 기상), 출근 도보 빠른 걸음 3.5km 40분",
+      "calories_est": 190,
+      "timestamp": 1790464246109
+    },
+    {
+      "date": "2026-09-27",
+      "calories_est": 55,
+      "exercise": false,
+      "alcohol_g": 0,
+      "raw_text": "아침 결식, 핫식스 더 프로 프로틴 12g 1캔 음용",
+      "timestamp": 1790464470204
+    },
+    {
+      "date": "2026-09-25",
+      "alcohol_g": 0,
+      "exercise": false,
+      "raw_text": "식후 과일: 배 1조각, 감 1조각, 사과 1조각, 샤인머스켓 3알",
+      "calories_est": 90,
+      "timestamp": 1790466496448
+    },
+    {
+      "date": "2026-09-25",
+      "raw_text": "큰집 식후 및 본가 복귀 이동 중 낮잠 약 1시간 30분",
+      "sleep_hours": 1.5,
+      "timestamp": 1790466578204
+    },
+    {
+      "date": "2026-09-25",
+      "calories_est": 380,
+      "raw_text": "점심(14:30) 깻잎전 3개, 고추전 1개, 동태전 1개, 겉절이 및 더덕무침 적정량",
+      "alcohol_g": 0,
+      "timestamp": 1790466732495
+    },
+    {
+      "date": "2026-09-25",
+      "raw_text": "점심 식후 일반 보라색 포도 10알",
+      "calories_est": 40,
+      "alcohol_g": 0,
+      "timestamp": 1790466806717
+    },
+    {
+      "date": "2026-09-25",
+      "alcohol_g": 42,
+      "calories_est": 1700,
+      "raw_text": "저녁 양꼬치(약 10꼬치), 꿔바로우, 지삼선, 향라새우 각 1/3접시, 오이무침 등 밑반찬 / 설원 고량주 1/3병(약 150ml), 맥주 1/3병(약 170ml)",
+      "timestamp": 1790467524730
+    },
+    {
+      "date": "2026-09-26",
+      "raw_text": "야간 분할 수면 8.5시간 (21:00~01:00 4시간, 05:00~09:30 4.5시간 / 중간 각성 4시간)",
+      "sleep_hours": 8.5,
+      "timestamp": 1790467889999
+    },
+    {
+      "date": "2026-09-26",
+      "calories_est": 520,
+      "raw_text": "10:00 아침 식사: 흑미밥 1/3공기, 배추된장국, 구운 임연수 1/2마리, 고추잎나물, 버섯·양파·당근 혼합 볶음, 계란말이, 연근조림, 김 등 밑반찬",
+      "alcohol_g": 0,
+      "timestamp": 1790468166524
+    },
+    {
+      "date": "2026-09-26",
+      "raw_text": "16:00 늦은 점심: KFC 풍성한가위 싱글팩(클래식징거통다리 버거, 핫크리스피통다리 1조각, 코울슬로, 에그타르트), 환타 오렌지 1컵",
+      "alcohol_g": 0,
+      "calories_est": 1450,
+      "timestamp": 1790468474817
+    },
+    {
+      "date": "2026-09-26",
+      "calories_est": 160,
+      "exercise": false,
+      "alcohol_g": 0,
+      "sleep_hours": 1,
+      "raw_text": "17:00~18:00 본가 복귀 차량 내 낮잠 1시간, 하남 코스트코 경유 후 울진 복귀 운전 중 몬스터 에너지 오리지널 1캔",
+      "timestamp": 1790471403393
+    },
+    {
+      "date": "2026-09-27",
+      "calories_est": 35,
+      "raw_text": "10:50경 간식: 일반 사과 1/4조각",
+      "alcohol_g": 0,
+      "timestamp": 1790474324699
+    },
+    {
+      "date": "2026-09-27",
+      "calories_est": 20,
+      "alcohol_g": 0,
+      "exercise_type": "anaerobic",
+      "raw_text": "11:40 점심 식사 전 푸쉬업 12회 3세트 (총 36회)",
+      "exercise": true,
+      "timestamp": 1790495776843
+    },
+    {
+      "date": "2026-09-27",
+      "alcohol_g": 0,
+      "calories_est": 1180,
+      "raw_text": "12:00 점심: 밥 1.5공기, 아욱국(아홉국), 배추김치, 닭갈비, 냉동떡갈비, 데친 문어+브로콜리+초장",
+      "timestamp": 1790495927043
+    },
+    {
+      "date": "2026-09-27",
+      "calories_est": 0,
+      "sleep_hours": 1,
+      "exercise": false,
+      "raw_text": "점심 식사 후 약 1시간 수면(낮잠)",
+      "alcohol_g": 0,
+      "timestamp": 1790497209307
+    },
+    {
+      "date": "2026-09-27",
+      "raw_text": "16:00~16:50 퇴근길 도보 약 3.5km (여유로운 보통 속도 걷기)",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "calories_est": 190,
+      "timestamp": 1790497287947
+    },
+    {
+      "date": "2026-09-27",
+      "exercise": false,
+      "alcohol_g": 101.5,
+      "raw_text": "20:00~21:00 저녁 겸 야식: 동태전 6개, 고추전 3개, 두꺼운 녹두전 1/2개, 참이슬 오리지널 640ml 1병",
+      "calories_est": 1550,
+      "timestamp": 1790512464254
+    },
+    {
+      "date": "2026-09-28",
+      "alcohol_g": 0,
+      "raw_text": "아침 식사: 포도 한 송이(약 300g)",
+      "calories_est": 190,
+      "timestamp": 1790552760848
+    },
+    {
+      "date": "2026-09-28",
+      "alcohol_g": 0,
+      "raw_text": "점심 식사: 코스트코 치킨 반 마리, 폰타나 스모키 BBQ 소스",
+      "calories_est": 1050,
+      "timestamp": 1790567388154
+    },
+    {
+      "date": "2026-09-28",
+      "sleep_hours": 1.5,
+      "raw_text": "17:30~19:00 낮잠 수면(약 1.5시간)",
+      "timestamp": 1790589745684
+    },
+    {
+      "date": "2026-09-28",
+      "alcohol_g": 0,
+      "raw_text": "저녁 식사: 코스트코 치킨살사랩",
+      "calories_est": 500,
+      "timestamp": 1790597002091
+    },
+    {
+      "date": "2026-09-29",
+      "calories_est": 450,
+      "raw_text": "야식: 명태조림(몸통 1토막, 감자/채소), 잡곡밥 1/3공기, 길비스 보드카 2잔",
+      "alcohol_g": 19,
+      "timestamp": 1790612369854
+    },
+    {
+      "date": "2026-09-29",
+      "calories_est": 280,
+      "alcohol_g": 9.5,
+      "raw_text": "야식 2차: 명태조림 작은 1토막, 무 2조각, 잡곡밥 2큰술, 길비스 보드카 1잔",
+      "timestamp": 1790616243266,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-09-29",
+      "raw_text": "수면 약 8시간 (03:30경 취침 ~ 11:30 기상)",
+      "sleep_hours": 8,
+      "timestamp": 1790651193215
+    },
+    {
+      "date": "2026-09-29",
+      "raw_text": "점심: 명태조림(큰 몸통 1토막, 꼬리 1토막, 무), 잡곡밥 1/2공기, 연근조림, 배추김치",
+      "alcohol_g": 0,
+      "calories_est": 510,
+      "timestamp": 1790653592421
+    },
+    {
+      "date": "2026-09-29",
+      "raw_text": "도보 출근 약 3.5km (15:07~15:42, 35분 소요 빠른 걸음)",
+      "calories_est": 170,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "timestamp": 1790664164049
+    },
+    {
+      "date": "2026-09-29",
+      "raw_text": "음료: 맥심 화이트골드 1스틱 + 카누 아메리카노 1스틱 혼합",
+      "alcohol_g": 0,
+      "calories_est": 55,
+      "timestamp": 1790666552104
+    },
+    {
+      "date": "2026-09-29",
+      "exercise_type": "anaerobic",
+      "calories_est": 20,
+      "exercise": true,
+      "raw_text": "푸쉬업 12회 3세트 (총 36회)",
+      "timestamp": 1790670814717
+    },
+    {
+      "date": "2026-09-29",
+      "exercise": false,
+      "raw_text": "저녁 식사 (약 1.5인분): 소세지카레볶음밥, 다시마무채국, 매콤돈육강정, 옛날사라다, 오이무침, 배추김치",
+      "alcohol_g": 0,
+      "calories_est": 1600,
+      "timestamp": 1790677870796
+    },
+    {
+      "date": "2026-09-29",
+      "sleep_hours": 0.5,
+      "raw_text": "20시경 토막잠 30분 수면",
+      "timestamp": 1790686062376
+    },
+    {
+      "date": "2026-09-29",
+      "raw_text": "현장 점검 중 계단 2칸씩 오르기 2회 (B1 77ft ~ F3 144ft)",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "calories_est": 75,
+      "timestamp": 1790688847505
+    },
+    {
+      "date": "2026-09-29",
+      "raw_text": "간식: 쿠크다스 1개",
+      "alcohol_g": 0,
+      "calories_est": 45,
+      "timestamp": 1790693306082
+    },
+    {
+      "date": "2026-09-30",
+      "raw_text": "야식: 오징어짬뽕 작은컵 1개",
+      "calories_est": 305,
+      "timestamp": 1790699878690
+    },
+    {
+      "date": "2026-09-30",
+      "sleep_hours": 1,
+      "raw_text": "06:00~07:00 수면 (1시간)",
+      "timestamp": 1790720900353
+    },
+    {
+      "date": "2026-09-30",
+      "calories_est": 380,
+      "alcohol_g": 0,
+      "raw_text": "식사: 명태조림(꼬리 1토막, 머리쪽 몸통 반절, 야채), 잡곡밥 1/3공기",
+      "timestamp": 1790726701262
+    },
+    {
+      "date": "2026-09-30",
+      "alcohol_g": 0,
+      "calories_est": 30,
+      "exercise": false,
+      "raw_text": "마루코메 재첩 미소된장국 1회분(유통기한 7개월 경과)",
+      "timestamp": 1790728090471
+    },
+    {
+      "date": "2026-09-30",
+      "alcohol_g": 0,
+      "sleep_hours": 4.3,
+      "raw_text": "10:00~14:20 수면 (약 4시간 20분)",
+      "timestamp": 1790745733084
+    },
+    {
+      "date": "2026-09-30",
+      "raw_text": "식사: 계란후라이 2개, 잡곡밥 1/3공기, 테라오카 계란간장 2큰술",
+      "calories_est": 330,
+      "alcohol_g": 0,
+      "timestamp": 1790747784270
+    },
+    {
+      "date": "2026-09-30",
+      "calories_est": 10,
+      "raw_text": "동서웰빙 칸타빌레 블랙 아메리카노 1팩(230ml)",
+      "alcohol_g": 0,
+      "exercise": false,
+      "timestamp": 1790756660426
+    },
+    {
+      "date": "2026-09-30",
+      "alcohol_g": 0,
+      "raw_text": "푸쉬업 12회 3세트(총 36회)",
+      "exercise": true,
+      "exercise_type": "anaerobic",
+      "calories_est": 15,
+      "timestamp": 1790757606140
+    },
+    {
+      "date": "2026-09-30",
+      "alcohol_g": 0,
+      "exercise": false,
+      "calories_est": 1200,
+      "raw_text": "저녁 식사(18:00): 백미밥(1.5), 옹심이물만둣국(1.5), 고추장돈육조림(1.5), 해물부추전, 양배추쌈/쌈장(1.5), 배추김치(1.5)",
+      "timestamp": 1790761979403
+    },
+    {
+      "date": "2026-09-30",
+      "sleep_hours": 1.5,
+      "raw_text": "근무 중 휴게/쪽잠 (19:00~21:40 누움, 수면 약 1.5시간)",
+      "timestamp": 1790772556676
+    },
+    {
+      "date": "2026-09-30",
+      "raw_text": "22:50~23:10 계단 2칸씩 오르기 운동 (어제와 동일: B1 77ft ~ F3 144ft 구간)",
+      "exercise_type": "aerobic",
+      "calories_est": 150,
+      "exercise": true,
+      "timestamp": 1790778153805
+    },
+    {
+      "date": "2026-09-30",
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "calories_est": 75,
+      "raw_text": "22:50~23:10 현장 이동 중 B1(77ft)~F3(144ft) 계단 2칸씩 2회 오르기",
+      "timestamp": 1790778327437
+    },
+    {
+      "date": "2026-10-01",
+      "exercise_type": "aerobic",
+      "raw_text": "퇴근길 도보 이동 45분 (00:10~00:55)",
+      "exercise": true,
+      "calories_est": 180,
+      "timestamp": 1790783850688
+    },
+    {
+      "date": "2026-10-01",
+      "alcohol_g": 30,
+      "calories_est": 850,
+      "raw_text": "야식 완식(생오리 로스 볶음: 오리 150g, 계란 4개, 토마토 2개, 굴소스) 및 위스키 3잔(샷 1잔, 하이볼 2잔)",
+      "timestamp": 1790792534464,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-01",
+      "raw_text": "새벽 04:10경 취침 후 11:40 기상 (약 7.5시간 수면)",
+      "sleep_hours": 7.5,
+      "timestamp": 1790824057109
+    },
+    {
+      "date": "2026-10-01",
+      "alcohol_g": 0,
+      "raw_text": "점심 식사: 양배추 계란 볶음(계란 2개, 양배추), 잡곡·해동백미 혼합 1공기, 테라오카 간장 2큰술",
+      "calories_est": 580,
+      "timestamp": 1790829049621
+    },
+    {
+      "date": "2026-10-01",
+      "calories_est": 80,
+      "raw_text": "미에로화이바 210ml 1병 섭취",
+      "alcohol_g": 0,
+      "timestamp": 1790841541277
+    },
+    {
+      "date": "2026-10-01",
+      "calories_est": 55,
+      "raw_text": "카누 화이트골드 1잔 섭취",
+      "alcohol_g": 0,
+      "timestamp": 1790841595358
+    },
+    {
+      "date": "2026-10-01",
+      "alcohol_g": 0,
+      "calories_est": 1150,
+      "raw_text": "저녁 식사: 잡곡밥, 북어해장국, 로제닭살조림, 가지볶음, 고구마떡맛탕, 배추김치 약 1.3인분",
+      "timestamp": 1790845167917
+    },
+    {
+      "date": "2026-10-01",
+      "sleep_hours": 1,
+      "raw_text": "A근무 중 휴게 시간 약 1시간 수면",
+      "timestamp": 1790853459027
+    },
+    {
+      "date": "2026-10-01",
+      "raw_text": "푸쉬업 36회(12x3회), 순찰 중 계단 오르기",
+      "calories_est": 90,
+      "alcohol_g": 0,
+      "exercise_type": "mixed",
+      "exercise": true,
+      "timestamp": 1790862827992
+    },
+    {
+      "date": "2026-10-02",
+      "calories_est": 380,
+      "raw_text": "야식 및 음주: 포도 1송이, 와사비 완두콩 4봉지, 토닉워터 1/3잔 + 위스키 1잔",
+      "alcohol_g": 13,
+      "timestamp": 1790871611040
+    },
+    {
+      "date": "2026-10-02",
+      "calories_est": 410,
+      "raw_text": "야식 및 음주: 포도 1송이, 하시다테 '교토 와사비 콩과자(완두 와사비맛)' 소포장 4봉지, 토닉워터 1/3잔 + 위스키 1잔",
+      "alcohol_g": 13,
+      "timestamp": 1790871836821
+    },
+    {
+      "date": "2026-10-02",
+      "calories_est": 70,
+      "alcohol_g": 10,
+      "raw_text": "추가 음주: 위스키 1잔(샷, 약 30ml)",
+      "timestamp": 1790873402260
+    },
+    {
+      "date": "2026-10-02",
+      "calories_est": 0,
+      "alcohol_g": 0,
+      "sleep_hours": 6.3,
+      "exercise": false,
+      "raw_text": "05:40 취침 후 12:00 기상 (수면 약 6.3시간)",
+      "timestamp": 1790910934603
+    },
+    {
+      "date": "2026-10-02",
+      "alcohol_g": 8,
+      "calories_est": 160,
+      "raw_text": "제주 감귤주 '귤로만' 2잔(약 100ml), 완두콩 과자 소포장 2봉지",
+      "timestamp": 1790911599161
+    },
+    {
+      "date": "2026-10-02",
+      "raw_text": "제주 감귤주 '귤로만' 1잔 추가(약 50ml)",
+      "alcohol_g": 4,
+      "calories_est": 45,
+      "timestamp": 1790917335096
+    },
+    {
+      "date": "2026-10-02",
+      "raw_text": "조선주조사 청주(14%) 1잔(약 50ml), 완두콩 과자 1봉지",
+      "exercise": false,
+      "calories_est": 140,
+      "alcohol_g": 5.6,
+      "timestamp": 1790921862642
+    },
+    {
+      "date": "2026-10-02",
+      "exercise": false,
+      "raw_text": "조선주조사 청주(14%) 1잔 추가(약 50ml)",
+      "alcohol_g": 5.6,
+      "calories_est": 60,
+      "timestamp": 1790923567309,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-02",
+      "calories_est": 820,
+      "alcohol_g": 0,
+      "raw_text": "밥 1공기(백미2/3, 잡곡1/3), S&B 골든커리 레토르트 1팩(200g), 갈비찜 3토막, 배추김치",
+      "exercise": false,
+      "timestamp": 1790926182076
+    },
+    {
+      "date": "2026-10-02",
+      "sleep_hours": 2,
+      "raw_text": "18:30~20:30 수면(약 2시간)",
+      "timestamp": 1790942138525
+    },
+    {
+      "date": "2026-10-02",
+      "exercise": false,
+      "alcohol_g": 0,
+      "raw_text": "파스타면 80g, 홈메이드 토마토 채소 스튜 소스 듬뿍 2국자",
+      "calories_est": 475,
+      "timestamp": 1790950426552
+    },
+    {
+      "date": "2026-10-03",
+      "calories_est": 25,
+      "exercise": false,
+      "alcohol_g": 0,
+      "raw_text": "청숨 유산균 발효 약도라지 오곡청 1포(10g) 섭취",
+      "timestamp": 1790953448320
+    },
+    {
+      "date": "2026-10-03",
+      "exercise": true,
+      "calories_est": 20,
+      "raw_text": "02:30 푸쉬업 12회 3세트(총 36회) 수행",
+      "exercise_type": "anaerobic",
+      "alcohol_g": 0,
+      "timestamp": 1790964219932
+    },
+    {
+      "date": "2026-10-03",
+      "alcohol_g": 0,
+      "raw_text": "야식으로 파스타면 80g, 홈메이드 토마토 채소 스튜 소스 2국자 섭취",
+      "calories_est": 480,
+      "exercise": false,
+      "timestamp": 1790964346079
+    },
+    {
+      "date": "2026-10-03",
+      "alcohol_g": 0,
+      "calories_est": 70,
+      "exercise_type": "mixed",
+      "raw_text": "순찰 중 지하 1층~지상 3층 계단 2회 오르기 수행",
+      "exercise": true,
+      "timestamp": 1790967526989
+    },
+    {
+      "date": "2026-10-03",
+      "raw_text": "06:00~07:00 사이 약 30분 수면",
+      "sleep_hours": 0.5,
+      "timestamp": 1790982049909
+    },
+    {
+      "date": "2026-10-03",
+      "calories_est": 600,
+      "alcohol_g": 0,
+      "raw_text": "잡곡+쌀밥 1/2공기, 갈비찜 3조각, 김치 섭취",
+      "timestamp": 1790989893555
+    },
+    {
+      "date": "2026-10-03",
+      "raw_text": "11:30~16:06 수면 (약 4.5시간)",
+      "sleep_hours": 4.5,
+      "timestamp": 1791011188567
+    },
+    {
+      "date": "2026-10-03",
+      "exercise": false,
+      "raw_text": "잡곡밥 2/3공기, 구운 오리고기, 대파 1개, 마늘장아찌, 김치, 피터 루거 소스",
+      "calories_est": 800,
+      "alcohol_g": 0,
+      "timestamp": 1791022406036
+    },
+    {
+      "date": "2026-10-03",
+      "raw_text": "몬스터 에너지 울트라 1캔(500ml, 카페인 140mg) 섭취",
+      "calories_est": 15,
+      "alcohol_g": 0,
+      "timestamp": 1791025348704
+    },
+    {
+      "date": "2026-10-04",
+      "exercise": false,
+      "raw_text": "말차라떼 가루 1큰술(약 16g, 65kcal) 섭취",
+      "calories_est": 65,
+      "alcohol_g": 0,
+      "timestamp": 1791040549899
+    },
+    {
+      "date": "2026-10-04",
+      "calories_est": 35,
+      "raw_text": "푸쉬업 13회 3세트(총 39회)",
+      "exercise_type": "anaerobic",
+      "exercise": true,
+      "alcohol_g": 0,
+      "timestamp": 1791049950621
+    },
+    {
+      "date": "2026-10-04",
+      "raw_text": "야식: 파스타면 80g, 홈메이드 토마토 채소 스튜 소스 2국자",
+      "exercise": false,
+      "alcohol_g": 0,
+      "calories_est": 480,
+      "timestamp": 1791050457477
+    },
+    {
+      "date": "2026-10-04",
+      "raw_text": "순찰 및 계단 오르기 운동 (B1~3F 2회 + B1~2F 1회)",
+      "exercise": true,
+      "calories_est": 80,
+      "exercise_type": "mixed",
+      "timestamp": 1791061271530
+    },
+    {
+      "date": "2026-10-04",
+      "calories_est": 580,
+      "assessment": "X",
+      "raw_text": "잡곡밥 1공기(스키야키 후리카케 1.5큰술), 계란후라이 2개, 연근조림, 김치",
+      "meal_type": "집밥",
+      "timestamp": 1791072003966
+    },
+    {
+      "date": "2026-10-04",
+      "sleep_end": "17:00",
+      "raw_text": "수면 10:30 ~ 17:00 (총 6시간 30분)",
+      "sleep_start": "10:30",
+      "timestamp": 1791101425236,
+      "sleep_hours": 6.5
+    },
+    {
+      "date": "2026-10-04",
+      "alcohol_g": 0,
+      "raw_text": "토마토 스튜 파스타(면 80g, 수제 스튜 3국자), 구운 고기",
+      "calories_est": 700,
+      "meal_type": "집밥",
+      "assessment": "건강식",
+      "timestamp": 1791103023062
+    },
+    {
+      "date": "2026-09-30",
+      "raw_text": "출근길 도보 약 3.5km (약 35~40분)",
+      "calories_est": 180,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "timestamp": 1791103952988
+    },
+    {
+      "date": "2026-10-01",
+      "exercise": true,
+      "calories_est": 180,
+      "exercise_type": "aerobic",
+      "raw_text": "A근무 출근길 도보 약 3.5km (약 35~40분)",
+      "timestamp": 1791103952992
+    },
+    {
+      "date": "2026-10-02",
+      "raw_text": "N근무 출근길 도보 약 3.5km (23:12~23:48, 36분)",
+      "calories_est": 180,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "timestamp": 1791103953001,
+      "event_time": "23:12"
+    },
+    {
+      "date": "2026-10-03",
+      "exercise": true,
+      "calories_est": 180,
+      "exercise_type": "aerobic",
+      "raw_text": "N근무 퇴근길 도보 약 3.5km (~08:47 귀가 완료)",
+      "timestamp": 1791103959770,
+      "event_time": "08:47"
+    },
+    {
+      "date": "2026-10-03",
+      "raw_text": "N근무 출근길 도보 약 3.5km (약 35~40분)",
+      "calories_est": 180,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "timestamp": 1791103959774,
+      "event_time": "23:14"
+    },
+    {
+      "date": "2026-10-04",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "raw_text": "N근무 퇴근길 도보 약 3.5km (약 35~40분)",
+      "calories_est": 180,
+      "timestamp": 1791103959778,
+      "event_time": "08:40"
+    },
+    {
+      "date": "2026-09-30",
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "raw_text": "N근무 퇴근길 도보 약 3.5km (약 35~40분)",
+      "calories_est": 180,
+      "timestamp": 1791106425464,
+      "event_time": "08:00"
+    },
+    {
+      "date": "2026-10-04",
+      "assessment": "X",
+      "calories_est": 55,
+      "meal_type": "음료",
+      "alcohol_g": 0,
+      "raw_text": "카누화골 1잔",
+      "timestamp": 1791112877988
+    },
+    {
+      "date": "2026-10-02",
+      "calories_est": 180,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "event_time": "00:40",
+      "raw_text": "A근무 퇴근길 도보 약 3.5km (약 35~40분)",
+      "timestamp": 1791119755903
+    },
+    {
+      "date": "2026-10-04",
+      "alcohol_g": 0,
+      "calories_est": 430,
+      "meal_type": "집밥",
+      "raw_text": "오리기름에 볶은 계란 2개와 양배추 반 주먹, 토마토 채소 스튜 3국자",
+      "exercise": false,
+      "assessment": "건강식",
+      "timestamp": 1791121839865
+    },
+    {
+      "date": "2026-10-04",
+      "calories_est": 180,
+      "exercise_type": "aerobic",
+      "raw_text": "N근무 출근길 도보 약 3.5km (약 35~40분)",
+      "exercise": true,
+      "timestamp": 1791122960112
+    },
+    {
+      "date": "2026-10-05",
+      "exercise_type": "anaerobic",
+      "raw_text": "푸쉬업 13회 3세트 (총 39회)",
+      "alcohol_g": 0,
+      "calories_est": 20,
+      "exercise": true,
+      "timestamp": 1791137591310
+    },
+    {
+      "date": "2026-10-05",
+      "calories_est": 75,
+      "raw_text": "현장 순찰 계단 오르기 (77ft~165ft 1회, 77ft~144ft 1회)",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "timestamp": 1791138867544
+    },
+    {
+      "date": "2026-10-05",
+      "meal_type": "집밥",
+      "raw_text": "도시락(파스타면 65g, 토마토 채소 스튜 3국자)",
+      "assessment": "건강식",
+      "calories_est": 450,
+      "timestamp": 1791138943944
+    },
+    {
+      "date": "2026-10-05",
+      "event_time": "08:55",
+      "calories_est": 160,
+      "exercise": true,
+      "raw_text": "퇴근 도보 이동 (약 3.5km, 08:55 도착)",
+      "exercise_type": "aerobic",
+      "timestamp": 1791158208479
+    },
+    {
+      "date": "2026-10-05",
+      "meal_type": "음주",
+      "alcohol_g": 12,
+      "raw_text": "조니워커 블랙라벨 1잔",
+      "calories_est": 75,
+      "timestamp": 1791158318822
+    },
+    {
+      "date": "2026-10-05",
+      "meal_type": "반주",
+      "raw_text": "구운 오리고기(약 160g), 소스, 몬스키(위스키 소주잔 2잔+몬스터)",
+      "calories_est": 850,
+      "alcohol_g": 32,
+      "timestamp": 1791160591690
+    },
+    {
+      "date": "2026-10-05",
+      "alcohol_g": 32,
+      "raw_text": "계란말이(계란 2개, 당근 1/4, 대파, 케첩), 몬스키 1잔(위스키 소주잔 2잔+몬스터)",
+      "calories_est": 540,
+      "meal_type": "반주",
+      "timestamp": 1791165044972
+    },
+    {
+      "date": "2026-10-05",
+      "meal_type": "음주",
+      "calories_est": 75,
+      "raw_text": "위스키 1잔",
+      "event_time": "12:14",
+      "alcohol_g": 12,
+      "timestamp": 1791170091283
+    },
+    {
+      "date": "2026-10-05",
+      "alcohol_g": 5,
+      "calories_est": 42,
+      "raw_text": "핫카이산 다이긴죠 1잔(오초코 약 40ml)",
+      "meal_type": "음주",
+      "timestamp": 1791171755617
+    },
+    {
+      "date": "2026-10-05",
+      "assessment": "건강식",
+      "calories_est": 220,
+      "raw_text": "명태조림 몸통 1토막, 잡곡밥 1/3공기",
+      "meal_type": "집밥",
+      "timestamp": 1791173033449
+    },
+    {
+      "date": "2026-10-05",
+      "calories_est": 45,
+      "meal_type": "음주",
+      "alcohol_g": 5,
+      "raw_text": "핫카이산 다이긴죠 1잔(오초코 약 40ml) 추가",
+      "timestamp": 1791173715030
+    },
+    {
+      "date": "2026-10-05",
+      "calories_est": 45,
+      "meal_type": "음주",
+      "raw_text": "핫카이산 다이긴죠 1잔(오초코 약 40ml) 추가",
+      "alcohol_g": 5,
+      "timestamp": 1791174790580
+    },
+    {
+      "date": "2026-10-05",
+      "alcohol_g": 4.9,
+      "meal_type": "음주",
+      "calories_est": 45,
+      "raw_text": "핫카이산 다이긴죠 1잔(오초코 약 40ml) 추가",
+      "timestamp": 1791176642085
+    },
+    {
+      "date": "2026-10-05",
+      "sleep_start": "14:30",
+      "raw_text": "수면 (14:30 ~ 21:06, 6시간 36분)",
+      "sleep_end": "21:06",
+      "timestamp": 1791202097936,
+      "sleep_hours": 6.6
+    },
+    {
+      "date": "2026-10-05",
+      "raw_text": "노브랜드 메밀소바 1봉지(365kcal)",
+      "calories_est": 365,
+      "meal_type": "간편식",
+      "assessment": "고탄수",
+      "timestamp": 1791204008322
+    },
+    {
+      "date": "2026-10-05",
+      "calories_est": 140,
+      "assessment": "건강식",
+      "meal_type": "간편식",
+      "raw_text": "삶은 달걀 2개 추가",
+      "timestamp": 1791204298359
+    },
+    {
+      "date": "2026-10-05",
+      "meal_type": "반주",
+      "calories_est": 45,
+      "alcohol_g": 4.9,
+      "raw_text": "핫카이산 다이긴죠 1잔 (전용 잔 약 40ml)",
+      "timestamp": 1791205708514
+    },
+    {
+      "date": "2026-10-05",
+      "meal_type": "음주",
+      "alcohol_g": 32,
+      "exercise": false,
+      "raw_text": "몬스키 1잔 (위스키 2잔 분량 약 60ml + 몬스터 에너지)",
+      "calories_est": 250,
+      "timestamp": 1791207855090
+    },
+    {
+      "date": "2026-10-05",
+      "raw_text": "핫카이산 다이긴죠 1잔 (전용 잔 약 40ml)",
+      "meal_type": "음주",
+      "calories_est": 45,
+      "alcohol_g": 4.9,
+      "timestamp": 1791211619148,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-06",
+      "calories_est": 45,
+      "meal_type": "음주",
+      "raw_text": "핫카이산 다이긴죠 1잔 (전용 잔 약 40ml)",
+      "alcohol_g": 4.9,
+      "timestamp": 1791213960975
+    },
+    {
+      "date": "2026-10-06",
+      "calories_est": 45,
+      "meal_type": "음주",
+      "alcohol_g": 4,
+      "raw_text": "제주 감귤주 '귤로만' 1잔 (소주잔 약 50ml)",
+      "timestamp": 1791217847768
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "제주 감귤주 '귤로만' 1잔 (소주잔 약 50ml)",
+      "alcohol_g": 4,
+      "calories_est": 45,
+      "meal_type": "음주",
+      "timestamp": 1791218445464
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "제주 감귤주 '귤로만' 1잔 (소주잔 약 50ml)",
+      "calories_est": 45,
+      "meal_type": "음주",
+      "alcohol_g": 4,
+      "timestamp": 1791220217448
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "제주 감귤주 '귤로만' 1잔 (소주잔 약 50ml)",
+      "alcohol_g": 4,
+      "meal_type": "음주",
+      "calories_est": 45,
+      "timestamp": 1791221445788
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "alcohol_g": 4,
+      "calories_est": 45,
+      "raw_text": "제주 감귤주 '귤로만' 1잔 (소주잔 약 50ml)",
+      "timestamp": 1791222336298
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "alcohol_g": 5.6,
+      "raw_text": "조선주조사 청주 1잔 (사케잔 약 50ml)",
+      "calories_est": 55,
+      "timestamp": 1791223853763
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "조선주조사 청주 1잔 (사케잔 약 50ml)",
+      "meal_type": "음주",
+      "alcohol_g": 5.6,
+      "calories_est": 55,
+      "timestamp": 1791225912427
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "calories_est": 55,
+      "alcohol_g": 5.6,
+      "raw_text": "조선주조사 청주 1잔 (사케잔 약 50ml)",
+      "timestamp": 1791228152049
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "alcohol_g": 2.8,
+      "event_time": "04:48",
+      "raw_text": "조선주조사 청주 남은 양 소주잔 반 잔(약 25ml) 마심 (병 비움)",
+      "calories_est": 28,
+      "timestamp": 1791229731452
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "잡곡밥 1/2공기, 비비고 초사리 곱창돌김",
+      "assessment": "건강식",
+      "calories_est": 190,
+      "meal_type": "집밥",
+      "timestamp": 1791231151304
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "위스키 1잔 (소주잔 약 50ml)",
+      "calories_est": 115,
+      "meal_type": "음주",
+      "alcohol_g": 16,
+      "timestamp": 1791232151610
+    },
+    {
+      "date": "2026-10-06",
+      "assessment": "X",
+      "alcohol_g": 0,
+      "raw_text": "교토 와사비 콩과자 완두 와사비맛 1봉지",
+      "calories_est": 60,
+      "meal_type": "간식",
+      "timestamp": 1791234970237
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "잡곡밥 1/3공기, 명태조림 약간(밥과 비슷한 양)",
+      "assessment": "X",
+      "meal_type": "집밥",
+      "calories_est": 190,
+      "timestamp": 1791235824230
+    },
+    {
+      "date": "2026-10-06",
+      "calories_est": 115,
+      "raw_text": "위스키 1잔 (소주잔 약 50ml)",
+      "meal_type": "반주",
+      "alcohol_g": 16,
+      "timestamp": 1791235920088
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "alcohol_g": 16,
+      "raw_text": "위스키 1잔",
+      "calories_est": 115,
+      "timestamp": 1791237533069
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "명태조림 1토막, 잡곡밥 1/3공기",
+      "meal_type": "집밥",
+      "calories_est": 210,
+      "timestamp": 1791240477399
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "위스키 1잔",
+      "calories_est": 110,
+      "alcohol_g": 16,
+      "meal_type": "반주",
+      "timestamp": 1791240799746
+    },
+    {
+      "date": "2026-10-06",
+      "sleep_end": "11:47",
+      "raw_text": "컴퓨터 의자에서 수면",
+      "sleep_start": "08:30",
+      "timestamp": 1791254852813,
+      "sleep_hours": 3.3
+    },
+    {
+      "date": "2026-10-06",
+      "assessment": "X",
+      "raw_text": "전해질 이온음료 1포 (30g, 500ml 희석)",
+      "calories_est": 100,
+      "alcohol_g": 0,
+      "meal_type": "음료",
+      "timestamp": 1791256297446
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "침대에서 수면 (14:43~18:29)",
+      "calories_est": 0,
+      "assessment": "X",
+      "alcohol_g": 0,
+      "sleep_end": "18:29",
+      "sleep_start": "14:43",
+      "timestamp": 1791279015982,
+      "sleep_hours": 3.8
+    },
+    {
+      "date": "2026-10-06",
+      "assessment": "건강식",
+      "alcohol_g": 0,
+      "calories_est": 330,
+      "raw_text": "잡곡밥 반공기, 명태조림 1토막",
+      "meal_type": "집밥",
+      "timestamp": 1791284155957
+    },
+    {
+      "date": "2026-10-06",
+      "alcohol_g": 4.4,
+      "calories_est": 50,
+      "meal_type": "음주",
+      "raw_text": "제주 감귤주 귤로만 1잔",
+      "timestamp": 1791284927838
+    },
+    {
+      "date": "2026-10-06",
+      "calories_est": 70,
+      "raw_text": "위스키 1잔",
+      "alcohol_g": 9.5,
+      "meal_type": "음주",
+      "timestamp": 1791288108677
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "alcohol_g": 7.9,
+      "calories_est": 215,
+      "raw_text": "타이거 라들러 레몬 500ml 1캔",
+      "timestamp": 1791289622237
+    },
+    {
+      "date": "2026-10-06",
+      "calories_est": 70,
+      "alcohol_g": 9.5,
+      "meal_type": "음주",
+      "raw_text": "위스키 1잔",
+      "timestamp": 1791292681632
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "raw_text": "위스키 1잔",
+      "alcohol_g": 9.5,
+      "calories_est": 70,
+      "timestamp": 1791296085637
+    },
+    {
+      "date": "2026-10-06",
+      "raw_text": "교토 와사비 콩과자 1봉지",
+      "alcohol_g": 0,
+      "calories_est": 55,
+      "assessment": "X",
+      "meal_type": "간식",
+      "exercise": false,
+      "timestamp": 1791296924292
+    },
+    {
+      "date": "2026-10-06",
+      "exercise": false,
+      "calories_est": 70,
+      "alcohol_g": 9.5,
+      "raw_text": "위스키 1잔",
+      "meal_type": "음주",
+      "timestamp": 1791297760721
+    },
+    {
+      "date": "2026-10-06",
+      "meal_type": "음주",
+      "alcohol_g": 9.5,
+      "calories_est": 70,
+      "raw_text": "위스키 1잔",
+      "timestamp": 1791298335158,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-07",
+      "meal_type": "음주",
+      "alcohol_g": 9.5,
+      "raw_text": "위스키 1잔",
+      "calories_est": 70,
+      "timestamp": 1791300506278
+    },
+    {
+      "date": "2026-10-07",
+      "calories_est": 70,
+      "raw_text": "위스키 1잔",
+      "alcohol_g": 9.5,
+      "meal_type": "음주",
+      "timestamp": 1791302380671
+    },
+    {
+      "date": "2026-10-07",
+      "raw_text": "위스키 1잔",
+      "meal_type": "음주",
+      "alcohol_g": 9.5,
+      "calories_est": 70,
+      "timestamp": 1791305371739
+    },
+    {
+      "date": "2026-10-07",
+      "calories_est": 80,
+      "exercise": false,
+      "alcohol_g": 0,
+      "meal_type": "간식",
+      "assessment": "X",
+      "raw_text": "교토 와사비 콩과자 1봉지",
+      "timestamp": 1791305994648
+    },
+    {
+      "date": "2026-10-07",
+      "alcohol_g": 9.5,
+      "calories_est": 65,
+      "meal_type": "음주",
+      "raw_text": "길비스 보드카 1잔",
+      "timestamp": 1791307612212
+    },
+    {
+      "date": "2026-10-07",
+      "raw_text": "02:46~09:19 수면 (약 6시간 33분)",
+      "sleep_start": "02:46",
+      "sleep_end": "09:19",
+      "timestamp": 1791332389842,
+      "sleep_hours": 6.6
+    },
+    {
+      "date": "2026-10-07",
+      "calories_est": 23,
+      "meal_type": "음료",
+      "raw_text": "하얀색 몬스터(울트라) 500ml",
+      "alcohol_g": 0,
+      "assessment": "X",
+      "timestamp": 1791333374022
+    },
+    {
+      "date": "2026-10-07",
+      "alcohol_g": 8,
+      "raw_text": "코스트코 로티세리 치킨 반 마리, 폰타나 BBQ 소스, 타이거 라들러 레몬 1캔",
+      "meal_type": "반주",
+      "calories_est": 1150,
+      "timestamp": 1791361657808,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-08",
+      "sleep_start": "00:46",
+      "sleep_end": "04:41",
+      "raw_text": "00:46~04:41 수면 (약 3시간 55분)",
+      "timestamp": 1791402139296,
+      "sleep_hours": 3.9
+    },
+    {
+      "date": "2026-10-08",
+      "meal_type": "간식",
+      "raw_text": "교토 와사비 콩과자 1봉지",
+      "calories_est": 70,
+      "assessment": "X",
+      "timestamp": 1791404035186
+    },
+    {
+      "date": "2026-10-08",
+      "raw_text": "잡곡밥 1공기, 갈비찜 작은 것 4토막, 나박김치, 연근조림 소량, 배추김치",
+      "meal_type": "집밥",
+      "assessment": "건강식",
+      "alcohol_g": 0,
+      "calories_est": 650,
+      "timestamp": 1791406311956
+    },
+    {
+      "date": "2026-10-08",
+      "raw_text": "출근 도보 이동 (자택→직장, 약 3.5km)",
+      "calories_est": 170,
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "assessment": "X",
+      "timestamp": 1791410308139
+    },
+    {
+      "date": "2026-10-08",
+      "raw_text": "핫식스 더 프로(프로틴) 1캔",
+      "assessment": "X",
+      "meal_type": "음료",
+      "event_time": "09:20",
+      "alcohol_g": 0,
+      "calories_est": 52,
+      "timestamp": 1791419535989
+    },
+    {
+      "date": "2026-10-08",
+      "meal_type": "급식",
+      "assessment": "고탄수",
+      "calories_est": 1180,
+      "raw_text": "점심 급식: 밥, 김치국, 고구마돈까스, 두부조림, 배추김치 정량(1인분), 카레감자채볶음 2인분",
+      "event_time": "12:00",
+      "timestamp": 1791443250790
+    },
+    {
+      "date": "2026-10-08",
+      "sleep_start": "13:00",
+      "raw_text": "낮잠 1시간 (13:00~14:00, 비몽사몽 간헐적 수면)",
+      "sleep_end": "14:00",
+      "timestamp": 1791443319180,
+      "sleep_hours": 1
+    },
+    {
+      "date": "2026-10-08",
+      "exercise_type": "aerobic",
+      "calories_est": 170,
+      "exercise": true,
+      "raw_text": "퇴근 도보 이동 출발 (직장→자택 약 3.5km)",
+      "timestamp": 1791444506600
+    },
+    {
+      "date": "2026-10-08",
+      "meal_type": "간식",
+      "assessment": "고탄수",
+      "raw_text": "답례떡 2개(설기 1개, 찰떡 1개 섭취 / 설기 1개 보관)",
+      "calories_est": 370,
+      "timestamp": 1791457761088
+    },
+    {
+      "date": "2026-10-08",
+      "sleep_start": "21:30",
+      "raw_text": "수면 (21:30~02:09, 약 4시간 39분)",
+      "sleep_end": "02:09",
+      "timestamp": 1791479398627,
+      "sleep_hours": 4.7
+    },
+    {
+      "date": "2026-10-09",
+      "raw_text": "진비빔면 1개 (토핑 없음)",
+      "assessment": "고탄수",
+      "calories_est": 625,
+      "meal_type": "집밥",
+      "alcohol_g": 0,
+      "timestamp": 1791487018028
+    },
+    {
+      "date": "2026-10-09",
+      "meal_type": "집밥",
+      "alcohol_g": 0,
+      "calories_est": 60,
+      "raw_text": "직접 만든 토마토 채소 스튜 1국자",
+      "assessment": "건강식",
+      "timestamp": 1791496630163
+    },
+    {
+      "date": "2026-10-09",
+      "calories_est": 170,
+      "raw_text": "출근 도보 이동 (약 3.5km)",
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "timestamp": 1791496995723
+    },
+    {
+      "date": "2026-10-09",
+      "sleep_end": "11:30",
+      "raw_text": "점심 식사 전 낮잠 약 30분",
+      "sleep_start": "11:00",
+      "timestamp": 1791516374310,
+      "sleep_hours": 0.5
+    },
+    {
+      "date": "2026-10-09",
+      "calories_est": 1180,
+      "assessment": "과식",
+      "event_time": "12:00",
+      "meal_type": "급식",
+      "raw_text": "백미밥, 북어해장국, 메추리알돈육조림, 구운어묵맛살조림, 오이무침, 깍두기 약 1.5인분",
+      "timestamp": 1791516571818
+    },
+    {
+      "date": "2026-10-09",
+      "raw_text": "오후 근무 중 낮잠 약 2시간",
+      "sleep_start": "13:30",
+      "sleep_end": "15:30",
+      "timestamp": 1791527961271,
+      "sleep_hours": 2
+    },
+    {
+      "date": "2026-10-09",
+      "exercise": true,
+      "raw_text": "퇴근 도보 이동(약 3.5km)",
+      "exercise_type": "aerobic",
+      "calories_est": 170,
+      "timestamp": 1791530045521
+    },
+    {
+      "date": "2026-10-09",
+      "raw_text": "빙수하임 말차팥빙수맛 1봉지",
+      "alcohol_g": 0,
+      "assessment": "X",
+      "meal_type": "간식",
+      "calories_est": 85,
+      "timestamp": 1791534272461
+    },
+    {
+      "date": "2026-10-09",
+      "alcohol_g": 13.3,
+      "meal_type": "음주",
+      "calories_est": 150,
+      "raw_text": "카스 프레시 370ml 1잔",
+      "timestamp": 1791537434688
+    },
+    {
+      "date": "2026-10-09",
+      "calories_est": 480,
+      "raw_text": "수제 스튜 3국자, 파스타면 60g, 위스키 2잔",
+      "exercise": false,
+      "meal_type": "반주",
+      "alcohol_g": 19,
+      "timestamp": 1791550042519
+    },
+    {
+      "date": "2026-10-09",
+      "meal_type": "음주",
+      "raw_text": "카스 370ml 1캔, 참이슬 오리지날 2잔 (소맥)",
+      "calories_est": 290,
+      "alcohol_g": 29,
+      "timestamp": 1791554547048,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-10",
+      "meal_type": "음주",
+      "alcohol_g": 29,
+      "calories_est": 290,
+      "raw_text": "카스 370ml 1캔, 참이슬 오리지날 2잔 (소맥)",
+      "timestamp": 1791558629437
+    },
+    {
+      "date": "2026-10-10",
+      "raw_text": "수면 (취침 03:15 ~ 기상 09:10, 약 5시간 55분)",
+      "sleep_start": "03:15",
+      "sleep_end": "09:10",
+      "timestamp": 1791592191353,
+      "sleep_hours": 5.9
+    },
+    {
+      "date": "2026-10-10",
+      "alcohol_g": 0,
+      "raw_text": "파스타면 80g, 수제 토마토 스튜 3.5국자 (완진)",
+      "calories_est": 520,
+      "meal_type": "집밥",
+      "assessment": "건강식",
+      "timestamp": 1791597373942
+    },
+    {
+      "date": "2026-10-10",
+      "calories_est": 230,
+      "meal_type": "음주",
+      "alcohol_g": 8,
+      "raw_text": "타이거 라들러 레몬 500ml 1캔",
+      "timestamp": 1791609330083
+    },
+    {
+      "date": "2026-10-10",
+      "raw_text": "카스 370ml 1캔 + 참이슬 오리지날 2잔 소맥 1잔",
+      "calories_est": 290,
+      "alcohol_g": 29,
+      "meal_type": "반주",
+      "timestamp": 1791628472449
+    },
+    {
+      "date": "2026-10-10",
+      "meal_type": "반주",
+      "alcohol_g": 11,
+      "exercise": false,
+      "raw_text": "금강송 30도 1잔 (약 45ml)",
+      "calories_est": 80,
+      "timestamp": 1791630305974
+    },
+    {
+      "date": "2026-10-10",
+      "meal_type": "집밥",
+      "raw_text": "양태 해물라면 1그릇 (너구리, 양태 1마리, 무 180g, 대파 0.5, 양파 0.25, 청양고추 2개, 캡사이신 가루, 바지락살 10알)",
+      "alcohol_g": 0,
+      "assessment": "고탄수",
+      "calories_est": 600,
+      "timestamp": 1791631055067
+    },
+    {
+      "date": "2026-10-10",
+      "alcohol_g": 11,
+      "raw_text": "금강송 30도 1잔 (약 45ml) 추가",
+      "meal_type": "음주",
+      "calories_est": 80,
+      "timestamp": 1791631879709
+    },
+    {
+      "date": "2026-10-10",
+      "calories_est": 145,
+      "alcohol_g": 8,
+      "meal_type": "반주",
+      "raw_text": "잡곡밥 1/4공기, 참이슬 오리지날 1잔",
+      "timestamp": 1791632383903
+    },
+    {
+      "date": "2026-10-10",
+      "meal_type": "음주",
+      "raw_text": "참이슬 오리지날 1잔 추가",
+      "exercise": false,
+      "alcohol_g": 8,
+      "calories_est": 70,
+      "timestamp": 1791636817670
+    },
+    {
+      "date": "2026-10-10",
+      "assessment": "과식",
+      "calories_est": 510,
+      "meal_type": "집밥",
+      "raw_text": "해물짬뽕 라면 1봉지",
+      "timestamp": 1791636930356
+    },
+    {
+      "date": "2026-10-10",
+      "alcohol_g": 8,
+      "raw_text": "참이슬 오리지널 1잔",
+      "calories_est": 70,
+      "meal_type": "음주",
+      "timestamp": 1791637702626
+    },
+    {
+      "date": "2026-10-10",
+      "meal_type": "반주",
+      "alcohol_g": 8,
+      "raw_text": "참이슬 오리지널 1잔, 잡곡밥 1/4공기",
+      "calories_est": 145,
+      "timestamp": 1791640009260,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-11",
+      "sleep_end": "01:00",
+      "raw_text": "컴퓨터 앞 쪽잠 약 1시간",
+      "sleep_start": "00:00",
+      "timestamp": 1791648704372,
+      "sleep_hours": 1
+    },
+    {
+      "date": "2026-10-11",
+      "alcohol_g": 12,
+      "meal_type": "반주",
+      "raw_text": "금강송 1잔, 빙수하임 1봉지",
+      "calories_est": 175,
+      "timestamp": 1791649851524
+    },
+    {
+      "date": "2026-10-11",
+      "raw_text": "취침 02:43, 기상 09:23 (약 6시간 40분 수면)",
+      "sleep_end": "09:23",
+      "sleep_start": "02:43",
+      "timestamp": 1791678249108,
+      "sleep_hours": 6.7
+    },
+    {
+      "date": "2026-10-11",
+      "raw_text": "타이거 라들러 레몬 500ml 1캔",
+      "meal_type": "음주",
+      "alcohol_g": 8,
+      "calories_est": 215,
+      "timestamp": 1791681255502,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-11",
+      "alcohol_g": 0,
+      "assessment": "고탄수",
+      "meal_type": "간식",
+      "exercise": false,
+      "calories_est": 170,
+      "raw_text": "선물받았던 남은 설기 1개",
+      "timestamp": 1791688105568
+    },
+    {
+      "date": "2026-10-11",
+      "exercise": true,
+      "raw_text": "오후(A) 근무 출근 도보 이동 완료 (약 3.5km, 15:09~16:09 도보 이동)",
+      "calories_est": 165,
+      "assessment": "X",
+      "exercise_type": "aerobic",
+      "timestamp": 1791698968379
+    },
+    {
+      "date": "2026-10-11",
+      "assessment": "X",
+      "alcohol_g": 0,
+      "meal_type": "음료",
+      "raw_text": "핫식스 더킹 프로틴 1캔 섭취",
+      "exercise": false,
+      "calories_est": 65,
+      "timestamp": 1791704729307
+    },
+    {
+      "date": "2026-10-11",
+      "exercise": true,
+      "calories_est": 25,
+      "raw_text": "푸쉬업 13회 3세트 (총 39회)",
+      "exercise_type": "anaerobic",
+      "timestamp": 1791708450837
+    },
+    {
+      "date": "2026-10-11",
+      "meal_type": "급식",
+      "assessment": "과식",
+      "raw_text": "직장 저녁 급식(1.5인분): 흑미밥, 감자된장국, 들깨백불고기, 온두부/양념장, 브로콜리새송이볶음, 깍두기",
+      "calories_est": 1150,
+      "timestamp": 1791709977724
+    },
+    {
+      "date": "2026-10-11",
+      "raw_text": "오후 근무 중 휴게 수면 약 1시간 30분",
+      "sleep_start": "19:30",
+      "sleep_end": "21:00",
+      "timestamp": 1791725393606,
+      "sleep_hours": 1.5
+    },
+    {
+      "date": "2026-10-11",
+      "raw_text": "현장 순찰 계단 오르기 (77~165ft 1회, 77~144ft 1회)",
+      "event_time": "21:40",
+      "exercise": true,
+      "calories_est": 70,
+      "exercise_type": "aerobic",
+      "timestamp": 1791725478644
+    },
+    {
+      "date": "2026-10-12",
+      "calories_est": 175,
+      "exercise": true,
+      "event_time": "00:10",
+      "exercise_type": "aerobic",
+      "raw_text": "퇴근 도보 이동 출발 (직장→자택 약 3.5km)",
+      "timestamp": 1791731414946
+    },
+    {
+      "date": "2026-10-12",
+      "assessment": "고탄수",
+      "alcohol_g": 0,
+      "calories_est": 595,
+      "raw_text": "야식: 배홍동 비빔면 1개, 타이탄 제로 무알콜 1캔",
+      "meal_type": "간편식",
+      "exercise": false,
+      "timestamp": 1791735140866
+    },
+    {
+      "date": "2026-10-12",
+      "raw_text": "수면: 약 05:00~09:00 (약 4시간)",
+      "sleep_start": "05:00",
+      "event_time": "09:00",
+      "sleep_end": "09:00",
+      "timestamp": 1791763934879,
+      "sleep_hours": 4
+    },
+    {
+      "date": "2026-10-12",
+      "alcohol_g": 0,
+      "calories_est": 530,
+      "raw_text": "식사: 수제 토마토 스튜 2국자, 계란 3개 및 양배추 볶음",
+      "assessment": "건강식",
+      "meal_type": "집밥",
+      "timestamp": 1791767761844
+    },
+    {
+      "date": "2026-10-12",
+      "raw_text": "출근 전 낮잠 약 1시간",
+      "sleep_start": "13:50",
+      "sleep_end": "14:50",
+      "timestamp": 1791784638927,
+      "sleep_hours": 1
+    },
+    {
+      "date": "2026-10-12",
+      "meal_type": "음료",
+      "calories_est": 55,
+      "event_time": "16:30",
+      "assessment": "X",
+      "alcohol_g": 0,
+      "raw_text": "화골카누 1잔",
+      "timestamp": 1791792545954
+    },
+    {
+      "date": "2026-10-12",
+      "event_time": "17:40",
+      "calories_est": 25,
+      "exercise_type": "anaerobic",
+      "raw_text": "푸쉬업 13회 3세트 (총 39회)",
+      "exercise": true,
+      "timestamp": 1791810141768
+    },
+    {
+      "date": "2026-10-12",
+      "alcohol_g": 0,
+      "calories_est": 1100,
+      "assessment": "과식",
+      "event_time": "18:00",
+      "exercise": false,
+      "meal_type": "급식",
+      "raw_text": "저녁 급식: 백미밥 1.2인분, 얼큰순두부국, 칠리닭불고기 1.5인분, 감자채전, 그린샐러드, 배추김치",
+      "timestamp": 1791810274729
+    },
+    {
+      "date": "2026-10-12",
+      "exercise_type": "aerobic",
+      "calories_est": 70,
+      "exercise": true,
+      "raw_text": "현장 순찰 계단 오르기 (77~165ft 1회, 77~144ft 1회)",
+      "event_time": "21:40",
+      "timestamp": 1791810515033
+    },
+    {
+      "date": "2026-10-13",
+      "calories_est": 0,
+      "sleep_end": "06:30",
+      "sleep_start": "03:43",
+      "raw_text": "취침 03:43경, 기상 06:30 (수면 약 2시간 47분)",
+      "timestamp": 1791841037536,
+      "sleep_hours": 2.8
+    },
+    {
+      "date": "2026-10-13",
+      "meal_type": "집밥",
+      "calories_est": 330,
+      "assessment": "건강식",
+      "raw_text": "직접 만든 토마토 스튜 3국자, 순수잡곡밥 0.5공기",
+      "timestamp": 1791841178981
+    },
+    {
+      "date": "2026-10-13",
+      "exercise_type": "aerobic",
+      "exercise": true,
+      "calories_est": 190,
+      "raw_text": "출근 도보 이동 3.5km (약 36분 소요)",
+      "timestamp": 1791845058107
+    },
+    {
+      "date": "2026-10-13",
+      "meal_type": "음료",
+      "raw_text": "핫식스 더 프로 1캔",
+      "calories_est": 55,
+      "alcohol_g": 0,
+      "assessment": "X",
+      "timestamp": 1791846538778
+    },
+    {
+      "date": "2026-10-13",
+      "sleep_start": "11:00",
+      "raw_text": "주간 근무 중 휴게 수면 1시간",
+      "sleep_end": "12:00",
+      "timestamp": 1791874344944,
+      "sleep_hours": 1
+    },
+    {
+      "date": "2026-10-13",
+      "calories_est": 880,
+      "meal_type": "급식",
+      "event_time": "12:00",
+      "raw_text": "김치볶음밥 1.3인분, 크래미계란국, 멘치까스, 오이참깨파스타 두 젓가락, 단무지무침, 배추겉절이",
+      "assessment": "고탄수",
+      "timestamp": 1791874506258
+    },
+    {
+      "date": "2026-10-13",
+      "raw_text": "주간 근무 중 휴게 수면 2시간 (13:00~15:00, 간헐적 수면)",
+      "sleep_end": "15:00",
+      "sleep_start": "13:00",
+      "timestamp": 1791874575895,
+      "sleep_hours": 2
+    },
+    {
+      "date": "2026-10-13",
+      "assessment": "고탄수",
+      "raw_text": "18:00 저녁(급식): 잡곡밥(1.5인분), 돈육폭찹조림(1.5인분), 오징어뭇국, 토마토스크램블, 칠리실곤약야채무침, 배추김치",
+      "meal_type": "급식",
+      "exercise": false,
+      "alcohol_g": 0,
+      "calories_est": 880,
+      "event_time": "18:00",
+      "timestamp": 1791897845210
+    },
+    {
+      "date": "2026-10-13",
+      "sleep_start": "19:00",
+      "raw_text": "오후 근무 중 휴게 수면 1시간 30분 (19:00~20:30)",
+      "sleep_end": "20:30",
+      "timestamp": 1791897910212,
+      "sleep_hours": 1.5
+    },
+    {
+      "date": "2026-10-13",
+      "exercise": true,
+      "raw_text": "직장 순찰 중 계단 오르기 운동 (77~144ft 2회)",
+      "event_time": "22:48",
+      "calories_est": 55,
+      "exercise_type": "aerobic",
+      "timestamp": 1791900523660
+    },
+    {
+      "date": "2026-10-14",
+      "calories_est": 170,
+      "exercise_type": "aerobic",
+      "raw_text": "퇴근 도보 이동 출발 (직장→자택 약 3.5km)",
+      "exercise": true,
+      "alcohol_g": 0,
+      "assessment": "X",
+      "timestamp": 1791903953566
+    },
+    {
+      "date": "2026-10-14",
+      "raw_text": "위스키 하이볼 1잔 (소주잔 약 45ml + 토닉워터 100g + 얼음)",
+      "meal_type": "음주",
+      "event_time": "01:02",
+      "exercise": false,
+      "calories_est": 145,
+      "alcohol_g": 14.2,
+      "timestamp": 1791907359643
+    },
+    {
+      "date": "2026-10-14",
+      "meal_type": "음주",
+      "raw_text": "위스키 1잔 (소주잔 약 45ml)",
+      "alcohol_g": 14.2,
+      "calories_est": 105,
+      "timestamp": 1791912507969
+    },
+    {
+      "date": "2026-10-14",
+      "meal_type": "간식",
+      "assessment": "X",
+      "alcohol_g": 0,
+      "calories_est": 83,
+      "raw_text": "크라운 빙수하임 1봉지",
+      "timestamp": 1791912743534
+    },
+    {
+      "date": "2026-10-14",
+      "alcohol_g": 14.2,
+      "raw_text": "위스키 1잔 (소주잔 약 45ml)",
+      "meal_type": "음주",
+      "calories_est": 105,
+      "exercise": false,
+      "timestamp": 1791916888722
+    },
+    {
+      "date": "2026-10-14",
+      "alcohol_g": 7,
+      "meal_type": "반주",
+      "calories_est": 430,
+      "raw_text": "잡곡밥 0.5공기, 임연수구이 1토막(우측 소형), 핫카이산 대음양 1잔(약 55ml)",
+      "timestamp": 1791923599828
+    },
+    {
+      "date": "2026-10-14",
+      "sleep_end": "13:07",
+      "raw_text": "수면 (06:30~13:07)",
+      "sleep_start": "06:30",
+      "timestamp": 1791950847215,
+      "sleep_hours": 6.6
+    },
+    {
+      "date": "2026-10-14",
+      "event_time": "14:00",
+      "meal_type": "간편식",
+      "alcohol_g": 0,
+      "raw_text": "진비빔면 1개",
+      "calories_est": 625,
+      "assessment": "고탄수",
+      "timestamp": 1791959479538
+    },
+    {
+      "date": "2026-10-14",
+      "assessment": "고탄수",
+      "meal_type": "간식",
+      "calories_est": 420,
+      "raw_text": "와플(사과잼·딸기잼), 아메리카노",
+      "timestamp": 1791959571839
+    },
+    {
+      "date": "2026-10-14",
+      "alcohol_g": 18,
+      "raw_text": "이마트 양념치킨 반마리, 캔맥주 1캔",
+      "calories_est": 1200,
+      "meal_type": "반주",
+      "exercise": false,
+      "timestamp": 1791972771480,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-14",
+      "raw_text": "20:30 취침, 22:13 기상",
+      "sleep_end": "22:13",
+      "sleep_start": "20:30",
+      "timestamp": 1791983610994,
+      "sleep_hours": 1.7
+    },
+    {
+      "date": "2026-10-14",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "calories_est": 180,
+      "raw_text": "야간 근무 출근 도보 이동 출발 (약 3.5km)",
+      "timestamp": 1791986484280
+    },
+    {
+      "date": "2026-10-15",
+      "assessment": "X",
+      "meal_type": "음료",
+      "calories_est": 2,
+      "raw_text": "녹차 티백 1개 (텀블러 2병 분량)",
+      "alcohol_g": 0,
+      "timestamp": 1791993209544
+    },
+    {
+      "date": "2026-10-15",
+      "calories_est": 25,
+      "exercise_type": "anaerobic",
+      "event_time": "03:30",
+      "exercise": true,
+      "raw_text": "푸쉬업 14회 4세트 (총 56회)",
+      "timestamp": 1792003573455
+    },
+    {
+      "date": "2026-10-15",
+      "raw_text": "토마토 스튜 2국자, 파스타면 60g",
+      "calories_est": 340,
+      "meal_type": "집밥",
+      "assessment": "건강식",
+      "timestamp": 1792003651390
+    },
+    {
+      "date": "2026-10-15",
+      "exercise": true,
+      "raw_text": "현장 순찰 계단 오르기 (77~144ft 2회)",
+      "calories_est": 55,
+      "exercise_type": "aerobic",
+      "timestamp": 1792013733433
+    },
+    {
+      "date": "2026-10-15",
+      "exercise_type": "aerobic",
+      "calories_est": 180,
+      "raw_text": "야간 근무 퇴근 도보 이동 출발 (약 3.5km)",
+      "exercise": true,
+      "timestamp": 1792019363932
+    },
+    {
+      "date": "2026-10-15",
+      "calories_est": 220,
+      "meal_type": "집밥",
+      "alcohol_g": 0,
+      "assessment": "건강식",
+      "raw_text": "냉장 보관했던 구운 임연수 재가열 식사",
+      "timestamp": 1792022048047
+    },
+    {
+      "date": "2026-10-15",
+      "calories_est": 600,
+      "exercise": false,
+      "assessment": "건강식",
+      "meal_type": "집밥",
+      "alcohol_g": 0,
+      "raw_text": "구운 임연수어 146g, 잡곡밥 1공기, 김치",
+      "timestamp": 1792023101594
+    },
+    {
+      "date": "2026-10-15",
+      "sleep_end": "17:30",
+      "sleep_start": "11:30",
+      "raw_text": "치과 충치치료 후 귀가하여 수면 (11:30~17:30)",
+      "timestamp": 1792054654149,
+      "sleep_hours": 6
+    },
+    {
+      "date": "2026-10-15",
+      "assessment": "고지방",
+      "meal_type": "간편식",
+      "calories_est": 1100,
+      "raw_text": "양념치킨 반마리",
+      "timestamp": 1792057998972
+    },
+    {
+      "date": "2026-10-15",
+      "calories_est": 175,
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "raw_text": "야간 근무 도보 출근 출발",
+      "timestamp": 1792073383455
+    },
+    {
+      "date": "2026-10-15",
+      "raw_text": "출근 전 파워냅 (22:25~22:45)",
+      "sleep_end": "22:45",
+      "sleep_start": "22:25",
+      "timestamp": 1792073614686,
+      "sleep_hours": 0.3
+    },
+    {
+      "date": "2026-10-16",
+      "raw_text": "푸쉬업 13회 3세트 (총 39회)",
+      "exercise_type": "anaerobic",
+      "exercise": true,
+      "calories_est": 25,
+      "timestamp": 1792086485990
+    },
+    {
+      "date": "2026-10-16",
+      "alcohol_g": 0,
+      "meal_type": "집밥",
+      "raw_text": "야식: 직접 만든 토마토 스튜 2국자, 파스타면 60g",
+      "calories_est": 350,
+      "assessment": "건강식",
+      "timestamp": 1792086558688
+    },
+    {
+      "date": "2026-10-16",
+      "sleep_start": "03:30",
+      "raw_text": "야간 휴게 수면 (03:30~06:30, 3시간)",
+      "sleep_end": "06:30",
+      "timestamp": 1792100859856,
+      "sleep_hours": 3
+    },
+    {
+      "date": "2026-10-16",
+      "exercise_type": "aerobic",
+      "calories_est": 40,
+      "raw_text": "직장 순찰 계단 오르기 (77~144ft 2회)",
+      "exercise": true,
+      "timestamp": 1792103004257
+    },
+    {
+      "date": "2026-10-16",
+      "exercise_type": "aerobic",
+      "assessment": "X",
+      "calories_est": 180,
+      "exercise": true,
+      "raw_text": "퇴근 도보 이동 (직장→자택, 약 3.5km)",
+      "timestamp": 1792105797088
+    },
+    {
+      "date": "2026-10-16",
+      "raw_text": "잡곡밥 1공기, 제육불고기 280g, 연근조림 2조각, 배추김치",
+      "meal_type": "집밥",
+      "calories_est": 940,
+      "assessment": "과식",
+      "timestamp": 1792109458032
+    },
+    {
+      "date": "2026-10-16",
+      "assessment": "고탄수",
+      "event_time": "12:03",
+      "calories_est": 280,
+      "meal_type": "간식",
+      "raw_text": "단팥 도넛 1개 (1,500원)",
+      "timestamp": 1792119825616
+    },
+    {
+      "date": "2026-10-16",
+      "sleep_start": "13:30",
+      "sleep_end": "19:04",
+      "raw_text": "수면 (13:30~19:04, 약 5시간 34분)",
+      "timestamp": 1792145060330,
+      "sleep_hours": 5.6
+    },
+    {
+      "date": "2026-10-16",
+      "raw_text": "잡곡밥 1공기, 제육불고기 280g, 비비고 곱창돌김, 배추김치",
+      "calories_est": 930,
+      "assessment": "X",
+      "meal_type": "집밥",
+      "timestamp": 1792151569389
+    },
+    {
+      "date": "2026-10-16",
+      "meal_type": "간식",
+      "alcohol_g": 0,
+      "calories_est": 25,
+      "raw_text": "나박김치 1공기 (디저트)",
+      "assessment": "X",
+      "timestamp": 1792157803700
+    },
+    {
+      "date": "2026-10-16",
+      "exercise": true,
+      "exercise_type": "aerobic",
+      "calories_est": 170,
+      "event_time": "23:09",
+      "raw_text": "도보 출근 (자택→직장, 약 3.5km, 23:09 출발)",
+      "timestamp": 1792160106020
+    },
+    {
+      "date": "2026-10-17",
+      "raw_text": "말차라떼 1큰술 (약 16g)",
+      "meal_type": "음료",
+      "calories_est": 65,
+      "assessment": "X",
+      "timestamp": 1792163589297
+    },
+    {
+      "date": "2026-10-17",
+      "sleep_end": "02:30",
+      "raw_text": "야간 근무 중 휴게 수면 (01:00~02:30, 1시간 30분)",
+      "sleep_start": "01:00",
+      "timestamp": 1792181307248,
+      "sleep_hours": 1.5
+    },
+    {
+      "date": "2026-10-17",
+      "calories_est": 25,
+      "event_time": "02:45",
+      "exercise": true,
+      "exercise_type": "anaerobic",
+      "raw_text": "푸쉬업 13회 3세트 (총 39회)",
+      "timestamp": 1792181391249
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "집밥",
+      "event_time": "03:00",
+      "alcohol_g": 0,
+      "assessment": "건강식",
+      "raw_text": "직접 만든 토마토 스튜 2국자, 파스타면 60g",
+      "calories_est": 350,
+      "timestamp": 1792181455290
+    },
+    {
+      "date": "2026-10-17",
+      "raw_text": "직장 순찰 계단 오르기 (77~144ft 2회)",
+      "exercise_type": "aerobic",
+      "event_time": "05:00",
+      "exercise": true,
+      "calories_est": 40,
+      "timestamp": 1792181493808
+    },
+    {
+      "date": "2026-10-17",
+      "exercise_type": "aerobic",
+      "raw_text": "야간 근무 퇴근 도보 이동 (직장 → 자택, 약 3.5km)",
+      "calories_est": 170,
+      "exercise": true,
+      "timestamp": 1792191957555
+    },
+    {
+      "date": "2026-10-17",
+      "alcohol_g": 16,
+      "raw_text": "위스키 소주잔 1잔",
+      "calories_est": 115,
+      "meal_type": "음주",
+      "timestamp": 1792194599344
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "음주",
+      "alcohol_g": 16,
+      "calories_est": 115,
+      "raw_text": "위스키 소주잔 1잔 추가",
+      "timestamp": 1792196209496
+    },
+    {
+      "date": "2026-10-17",
+      "assessment": "X",
+      "calories_est": 85,
+      "alcohol_g": 0,
+      "raw_text": "빙수하임 1봉지",
+      "meal_type": "간식",
+      "timestamp": 1792196777123
+    },
+    {
+      "date": "2026-10-17",
+      "calories_est": 110,
+      "meal_type": "음주",
+      "raw_text": "금강송(40도) 1잔(소주잔 기준 추정)",
+      "alcohol_g": 16,
+      "timestamp": 1792198033159
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "음주",
+      "exercise": false,
+      "calories_est": 110,
+      "raw_text": "금강송(40도) 1잔 추가",
+      "alcohol_g": 16,
+      "timestamp": 1792200554188
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "간식",
+      "raw_text": "성심당 튀김소보로 1개",
+      "calories_est": 430,
+      "assessment": "고지방",
+      "timestamp": 1792202046981
+    },
+    {
+      "date": "2026-10-17",
+      "raw_text": "금강송(40도) 1잔 추가",
+      "exercise": false,
+      "alcohol_g": 16,
+      "meal_type": "음주",
+      "calories_est": 110,
+      "timestamp": 1792204772402
+    },
+    {
+      "date": "2026-10-17",
+      "assessment": "건강식",
+      "calories_est": 430,
+      "raw_text": "임연수 기름 계란후라이 2개, 밥 2/3공기, 간장계란밥 소스 2스푼",
+      "meal_type": "집밥",
+      "alcohol_g": 0,
+      "timestamp": 1792205931820
+    },
+    {
+      "date": "2026-10-17",
+      "sleep_start": "12:30",
+      "sleep_end": "18:39",
+      "raw_text": "수면 (12:30~18:39)",
+      "timestamp": 1792230079407,
+      "sleep_hours": 6.2
+    },
+    {
+      "date": "2026-10-17",
+      "raw_text": "참이슬 오리지널 1잔",
+      "alcohol_g": 8,
+      "meal_type": "음주",
+      "calories_est": 55,
+      "timestamp": 1792233910583
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "반주",
+      "raw_text": "간장 돼지불고기 1접시, 밥 1공기, 쌈채소·쌈장, 참이슬 오리지널 1잔",
+      "calories_est": 715,
+      "alcohol_g": 8,
+      "timestamp": 1792235195985
+    },
+    {
+      "date": "2026-10-17",
+      "alcohol_g": 8,
+      "meal_type": "반주",
+      "raw_text": "참이슬 오리지널 1잔",
+      "calories_est": 55,
+      "exercise": false,
+      "timestamp": 1792235797117
+    },
+    {
+      "date": "2026-10-17",
+      "raw_text": "참이슬 오리지널 1잔",
+      "calories_est": 55,
+      "alcohol_g": 8,
+      "meal_type": "반주",
+      "timestamp": 1792236549517
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "음주",
+      "alcohol_g": 6,
+      "raw_text": "핫카이산 다이긴죠 1잔(전용잔)",
+      "calories_est": 55,
+      "timestamp": 1792242535306
+    },
+    {
+      "date": "2026-10-17",
+      "meal_type": "음주",
+      "raw_text": "금강송(40도) 1잔",
+      "alcohol_g": 16,
+      "exercise": false,
+      "calories_est": 110,
+      "timestamp": 1792245303718,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-18",
+      "meal_type": "음주",
+      "raw_text": "위스키 1잔(소주잔 기준)",
+      "exercise": false,
+      "alcohol_g": 16,
+      "calories_est": 110,
+      "timestamp": 1792256519536
+    },
+    {
+      "date": "2026-10-18",
+      "raw_text": "밥 반공기, 불고기 반공기, 위스키 소주잔 1잔",
+      "exercise": false,
+      "alcohol_g": 16,
+      "calories_est": 510,
+      "meal_type": "반주",
+      "timestamp": 1792261689309
+    },
+    {
+      "date": "2026-10-18",
+      "sleep_start": "04:54",
+      "raw_text": "수면 (04:54~10:00)",
+      "sleep_end": "10:00",
+      "timestamp": 1792286435785,
+      "sleep_hours": 5.1
+    },
+    {
+      "date": "2026-10-18",
+      "raw_text": "얼큰너구리, 밥 0.5공기, 김치",
+      "assessment": "고탄수",
+      "calories_est": 680,
+      "meal_type": "집밥",
+      "timestamp": 1792293316713
+    },
+    {
+      "date": "2026-10-18",
+      "assessment": "X",
+      "calories_est": 23,
+      "alcohol_g": 0,
+      "meal_type": "음료",
+      "raw_text": "몬스터 에너지 울트라 500ml 1캔",
+      "timestamp": 1792301465986
+    },
+    {
+      "date": "2026-10-18",
+      "meal_type": "집밥",
+      "calories_est": 530,
+      "assessment": "건강식",
+      "raw_text": "밥 0.5공기, 불고기 1접시, 쌈채소",
+      "timestamp": 1792316967741
+    },
+    {
+      "date": "2026-10-18",
+      "alcohol_g": 16,
+      "meal_type": "음주",
+      "raw_text": "위스키 소주잔 1잔",
+      "calories_est": 110,
+      "timestamp": 1792330634570,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-19",
+      "sleep_end": "04:54",
+      "sleep_start": "01:21",
+      "raw_text": "수면 01:21~04:54 (중간 각성)",
+      "timestamp": 1792353301430,
+      "sleep_hours": 3.6
+    },
+    {
+      "date": "2026-10-19",
+      "exercise": false,
+      "meal_type": "집밥",
+      "calories_est": 380,
+      "raw_text": "어제 남은 불고기, 밥 0.5공기",
+      "assessment": "건강식",
+      "timestamp": 1792357936170
+    },
+    {
+      "date": "2026-10-19",
+      "raw_text": "주간(D) 출근 도보 이동 (약 3.5km)",
+      "exercise_type": "aerobic",
+      "calories_est": 170,
+      "exercise": true,
+      "timestamp": 1792360966502
+    },
+    {
+      "date": "2026-10-19",
+      "calories_est": 110,
+      "meal_type": "간식",
+      "raw_text": "출근 도보 이동 중 사과 1개",
+      "assessment": "건강식",
+      "exercise": false,
+      "alcohol_g": 0,
+      "timestamp": 1792360995141
+    },
+    {
+      "date": "2026-10-19",
+      "raw_text": "잡곡밥 1.2공기, 닭개장, 돈육김치볶음 1.2인분, 온두부 2조각, 베이컨감자채전, 청포묵무침, 배추김치",
+      "event_time": "11:50",
+      "assessment": "과식",
+      "meal_type": "급식",
+      "exercise": false,
+      "alcohol_g": 0,
+      "calories_est": 1250,
+      "timestamp": 1792379349592
+    },
+    {
+      "date": "2026-10-19",
+      "assessment": "X",
+      "raw_text": "핫식스 더 프로 오리지널 파인애플향 1캔 (355ml, 단백질 12g, 카페인 120mg)",
+      "meal_type": "음료",
+      "exercise": false,
+      "alcohol_g": 0,
+      "calories_est": 52,
+      "timestamp": 1792379454093
+    },
+    {
+      "date": "2026-10-19",
+      "exercise": true,
+      "raw_text": "주간(D) 퇴근 도보 이동 (약 3.5km)",
+      "exercise_type": "aerobic",
+      "calories_est": 170,
+      "timestamp": 1792393751822
+    },
+    {
+      "date": "2026-10-19",
+      "exercise": false,
+      "meal_type": "음주",
+      "calories_est": 110,
+      "alcohol_g": 16,
+      "raw_text": "위스키 1잔(소주잔)",
+      "timestamp": 1792396687208
+    },
+    {
+      "date": "2026-10-19",
+      "calories_est": 675,
+      "meal_type": "반주",
+      "raw_text": "양념 안주(475 kcal) 및 참이슬 오리지널 3잔",
+      "alcohol_g": 24,
+      "timestamp": 1792407650208
+    },
+    {
+      "date": "2026-10-19",
+      "alcohol_g": 16,
+      "raw_text": "참이슬 오리지널 2잔 추가",
+      "calories_est": 135,
+      "meal_type": "음주",
+      "timestamp": 1792408957021
+    },
+    {
+      "date": "2026-10-19",
+      "alcohol_g": 8,
+      "calories_est": 68,
+      "raw_text": "참이슬 오리지널 1잔 추가",
+      "meal_type": "음주",
+      "timestamp": 1792410155529
+    },
+    {
+      "date": "2026-10-19",
+      "raw_text": "참이슬 오리지널 2잔 추가",
+      "alcohol_g": 16,
+      "calories_est": 135,
+      "meal_type": "음주",
+      "timestamp": 1792413346306
+    },
+    {
+      "date": "2026-10-19",
+      "meal_type": "간편식",
+      "calories_est": 568,
+      "raw_text": "로코스 바베큐 폭립 절반(약 250g)",
+      "assessment": "고지방",
+      "timestamp": 1792413606982
+    },
+    {
+      "date": "2026-10-19",
+      "alcohol_g": 8,
+      "raw_text": "참이슬 오리지널 1잔 추가",
+      "exercise": false,
+      "calories_est": 68,
+      "meal_type": "음주",
+      "timestamp": 1792414423763
+    },
+    {
+      "date": "2026-10-19",
+      "alcohol_g": 16,
+      "raw_text": "위스키 1잔(소주잔 기준)",
+      "meal_type": "음주",
+      "calories_est": 110,
+      "timestamp": 1792415886380,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-20",
+      "sleep_end": "06:40",
+      "raw_text": "취침 약 23:00 ~ 기상 06:40 (약 7시간 40분)",
+      "sleep_start": "23:00",
+      "timestamp": 1792446180353,
+      "sleep_hours": 7.7
+    },
+    {
+      "date": "2026-10-20",
+      "calories_est": 45,
+      "alcohol_g": 0,
+      "meal_type": "집밥",
+      "assessment": "건강식",
+      "exercise": false,
+      "raw_text": "남은 나박김치 전부 섭취 (약 1대접 분량)",
+      "timestamp": 1792447272869
+    },
+    {
+      "date": "2026-10-20",
+      "alcohol_g": 0,
+      "raw_text": "해물짬뽕 1봉지 + 달걀 1개",
+      "meal_type": "집밥",
+      "assessment": "고탄수",
+      "calories_est": 585,
+      "exercise": false,
+      "timestamp": 1792448825941
+    },
+    {
+      "date": "2026-10-20",
+      "raw_text": "금강송(40도) 1잔",
+      "meal_type": "음주",
+      "calories_est": 110,
+      "alcohol_g": 16,
+      "timestamp": 1792492321025
+    },
+    {
+      "date": "2026-10-20",
+      "meal_type": "음주",
+      "raw_text": "금강송(40도) 1잔 추가",
+      "alcohol_g": 16,
+      "calories_est": 110,
+      "timestamp": 1792495125352
+    },
+    {
+      "date": "2026-10-20",
+      "meal_type": "반주",
+      "calories_est": 950,
+      "alcohol_g": 16,
+      "raw_text": "잡곡밥 1공기, 돼지불고기 1접시, 상추쌈, 참이슬 오리지널 2잔",
+      "timestamp": 1792497619502
+    },
+    {
+      "date": "2026-10-20",
+      "calories_est": 55,
+      "exercise": false,
+      "meal_type": "반주",
+      "alcohol_g": 8,
+      "raw_text": "참이슬 오리지널 1잔 추가",
+      "timestamp": 1792498705269
+    },
+    {
+      "date": "2026-10-20",
+      "raw_text": "금강송(40도) 1잔 추가",
+      "calories_est": 110,
+      "exercise": false,
+      "meal_type": "음주",
+      "alcohol_g": 16,
+      "timestamp": 1792500695953,
+      "assessment": "폭음"
+    },
+    {
+      "date": "2026-10-21",
+      "raw_text": "수면 22:40~04:28 (약 5시간 48분)",
+      "sleep_end": "04:28",
+      "sleep_start": "22:40",
+      "timestamp": 1792524499473,
+      "sleep_hours": 5.8
+    },
+    {
+      "date": "2026-10-21",
+      "event_time": "07:00",
+      "assessment": "고지방",
+      "calories_est": 550,
+      "meal_type": "간편식",
+      "raw_text": "로코스 바베큐 폭립 남은 절반(약 250g) 섭취",
+      "timestamp": 1792538091250
+    },
+    {
+      "date": "2026-10-21",
+      "meal_type": "음료",
+      "assessment": "X",
+      "raw_text": "카누 바닐라 라떼 1스틱 섭취",
+      "calories_est": 85,
+      "timestamp": 1792539946923
+    },
+    {
+      "date": "2026-10-21",
+      "calories_est": 780,
+      "event_time": "11:50",
+      "meal_type": "급식",
+      "assessment": "X",
+      "raw_text": "단호박카레밥, 옛날치킨/머스터드, 오징어치커리무침, 무피클, 요구르트, 배추김치 각 1인분 (카레 건더기 부실, 치킨 살 적음)",
+      "timestamp": 1792552191842
+    },
+    {
+      "date": "2026-10-21",
+      "raw_text": "직장 전체 순찰 도보 이동 40분 (계단 없이 천천히 걷기)",
+      "exercise": true,
+      "event_time": "12:20",
+      "exercise_type": "aerobic",
+      "calories_est": 115,
+      "timestamp": 1792555415666
+    },
+    {
+      "date": "2026-10-21",
+      "sleep_start": "13:30",
+      "raw_text": "직장 주간 근무 중 낮잠 1시간 (13:30~14:30)",
+      "sleep_end": "14:30",
+      "timestamp": 1792565193555,
+      "sleep_hours": 1
+    },
+    {
+      "date": "2026-10-21",
+      "event_time": "16:30",
+      "assessment": "고탄수",
+      "meal_type": "간식",
+      "raw_text": "회의 중 스타벅스 카페라떼 200ml, 뚱카롱 모양 아이스크림 1개, 몽블랑 1/2개",
+      "calories_est": 570,
+      "timestamp": 1792569806884
+    },
+    {
+      "date": "2026-10-21",
+      "raw_text": "퇴근 후 저녁 수면 약 3시간 (18:30~21:30)",
+      "sleep_end": "21:30",
+      "sleep_start": "18:30",
+      "timestamp": 1792585817504,
+      "sleep_hours": 3
+    },
+    {
+      "date": "2026-10-21",
+      "raw_text": "기린 이치방 500ml 1캔",
+      "calories_est": 200,
+      "meal_type": "음주",
+      "alcohol_g": 20,
+      "timestamp": 1792587783404
+    },
+    {
+      "date": "2026-10-21",
+      "meal_type": "음주",
+      "alcohol_g": 13,
+      "raw_text": "금강송(40도) 1잔",
+      "calories_est": 90,
+      "timestamp": 1792594721856,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-22",
+      "meal_type": "음주",
+      "alcohol_g": 14,
+      "calories_est": 110,
+      "raw_text": "위스키 1잔(소주잔 기준)",
+      "exercise": false,
+      "timestamp": 1792596580503
+    },
+    {
+      "date": "2026-10-22",
+      "meal_type": "집밥",
+      "assessment": "고탄수",
+      "exercise": false,
+      "raw_text": "파스타면 70g, 토마토 스튜 2.5국자",
+      "calories_est": 480,
+      "timestamp": 1792598673400
+    },
+    {
+      "date": "2026-10-22",
+      "raw_text": "위스키 1잔(소주잔 기준)",
+      "alcohol_g": 14.4,
+      "meal_type": "음주",
+      "calories_est": 110,
+      "exercise": false,
+      "timestamp": 1792602573865,
+      "assessment": "과음"
+    },
+    {
+      "date": "2026-10-22",
+      "raw_text": "03:35~07:00 수면 (약 3시간 25분)",
+      "sleep_end": "07:00",
+      "sleep_start": "03:35",
+      "timestamp": 1792620447252,
+      "sleep_hours": 3.4
+    },
+    {
+      "date": "2026-10-22",
+      "exercise_type": "aerobic",
+      "raw_text": "주간 출근 도보 이동 출발 (약 3.5km)",
+      "exercise": true,
+      "calories_est": 160,
+      "timestamp": 1792620848983
+    },
+    {
+      "date": "2026-10-22",
+      "raw_text": "설익은 파스타면 70g, 토마토 스튜 2.5국자",
+      "calories_est": 400,
+      "exercise": false,
+      "event_time": "07:10",
+      "alcohol_g": 0,
+      "assessment": "X",
+      "meal_type": "집밥",
+      "timestamp": 1792620906240
+    },
+    {
+      "date": "2026-10-22",
+      "raw_text": "핫식스 더 프로 오리지널 파인애플향 1캔(355ml)",
+      "assessment": "X",
+      "meal_type": "음료",
+      "calories_est": 52,
+      "timestamp": 1792624255130
+    }
+  ],
+  "targets": {},
+  "latestReview": {
+    "date": "2026-10-22",
+    "concerns": [
+      "휴무 당일 및 휴무 전날 퇴근 후 반복되는 고도수 주류 중심의 과음 및 야식 섭취"
+    ],
+    "instruction": "지금 바로 눈에 보이는 술병과 술잔을 보이지 않는 찬장 깊숙한 곳으로 모두 치워두세요.",
+    "createdAt": 1792620469624
+  }
+}

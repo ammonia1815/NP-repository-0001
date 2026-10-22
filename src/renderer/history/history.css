@@ -1,0 +1,213 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  font-family: "Segoe UI", sans-serif;
+}
+
+#panel {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background: rgba(17, 30, 32, 0.94);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+}
+
+#history-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  flex-shrink: 0;
+  padding: 0 8px 0 12px;
+  font-size: 12px;
+  color: #b8e3dd;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-app-region: drag;
+  cursor: move;
+}
+
+#history-header span:nth-child(2) {
+  flex: 1;
+}
+
+#close-btn {
+  -webkit-app-region: no-drag;
+  border: none;
+  background: transparent;
+  color: #b8e3dd;
+  font-size: 13px;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+}
+
+#close-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+#history-controls {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.15);
+  -webkit-app-region: no-drag;
+}
+
+#range-row, #search-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#start-date, #end-date {
+  flex: 1;
+  min-width: 0;
+  padding: 3px 4px;
+  border-radius: 4px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #dcf3ef;
+  font-size: 11px;
+  color-scheme: dark;
+}
+
+#range-row span {
+  color: #b8e3dd;
+  font-size: 11px;
+}
+
+#range-apply-btn, #search-btn {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 4px;
+  background: #2f9c90;
+  color: white;
+  font-size: 11px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+#range-apply-btn:hover, #search-btn:hover {
+  background: #37ad9f;
+}
+
+#search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #dcf3ef;
+  font-size: 12px;
+}
+
+#search-input::placeholder {
+  color: #8cb9b2;
+}
+
+#search-count {
+  flex-shrink: 0;
+  color: #b8e3dd;
+  font-size: 11px;
+  min-width: 32px;
+  text-align: right;
+}
+
+.bubble.search-current {
+  outline: 2px solid #d9a441;
+  outline-offset: 2px;
+}
+
+#history-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  -webkit-app-region: no-drag;
+}
+
+#history-body.empty {
+  align-items: center;
+  justify-content: center;
+  color: #8cb9b2;
+  font-size: 13px;
+}
+
+.date-divider {
+  align-self: center;
+  margin: 6px 0 2px;
+  padding: 3px 12px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #b8e3dd;
+  font-size: 11px;
+}
+
+.bubble {
+  max-width: 85%;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.bubble .time {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+/* Accent colors taken directly from 엔피's own design (mint-teal twin-tail
+   hair + necktie, dark navy uniform accents) rather than a generic palette. */
+.bubble.user {
+  align-self: flex-end;
+  background: #2f9c90;
+  color: white;
+}
+
+.bubble.assistant {
+  align-self: flex-start;
+  background: #202f38;
+  color: #dcf3ef;
+}
+
+/* Which client (desktop vs. the phone app) a turn came from - same
+   convention as the live chat window's chat.css. */
+.bubble.source-desktop::before {
+  content: "💻 ";
+  opacity: 0.6;
+}
+
+.bubble.source-mobile::before {
+  content: "📱 ";
+  opacity: 0.6;
+}
+
+/* A user turn that included images - a mobile gallery attachment (📷) or a
+   desktop screen-view capture (👁). */
+.bubble .attach-badge {
+  opacity: 0.6;
+}
+
+/* Marks which LLM backend produced an assistant turn - see chat.css's own
+   .model-badge for the full rationale (same icon convention, same
+   drawn-before-known reasoning). */
+.bubble .model-badge {
+  opacity: 0.6;
+}

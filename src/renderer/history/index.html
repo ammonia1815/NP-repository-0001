@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>History</title>
+<link rel="stylesheet" href="history.css" />
+</head>
+<body>
+<div id="panel">
+  <div id="history-header">
+    <span>⠿</span>
+    <span>대화 기록</span>
+    <button id="close-btn" title="닫기">✕</button>
+  </div>
+  <div id="history-controls">
+    <div id="range-row">
+      <input type="date" id="start-date" title="시작 날짜" />
+      <span>~</span>
+      <input type="date" id="end-date" title="끝 날짜" />
+      <button id="range-apply-btn">조회</button>
+    </div>
+    <div id="search-row">
+      <input type="text" id="search-input" placeholder="검색어" />
+      <button id="search-btn" title="다음 찾기">🔍</button>
+      <span id="search-count"></span>
+    </div>
+  </div>
+  <div id="history-body"></div>
+</div>
+<script src="history.js"></script>
+</body>
+</html>

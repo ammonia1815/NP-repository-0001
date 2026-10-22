@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Inflated from XML (instead of constructing PlayerView() in code) purely so
+  app:surface_type can be set to texture_view - SurfaceView (PlayerView's
+  default) showed a heavy, motion-dependent noise artifact on the dev's
+  Samsung device, a known class of issue where SurfaceView's separate
+  hardware overlay compositing misbehaves on certain OEM display stacks.
+  TextureView composites as a normal view instead, avoiding that path.
+-->
+<androidx.media3.ui.PlayerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/avatar_player_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:surface_type="texture_view"
+    app:use_controller="false" />
